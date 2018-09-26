@@ -1,0 +1,2 @@
+# MyConfig
+save my config
