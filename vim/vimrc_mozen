@@ -26,26 +26,23 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 "Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'vim-airline/vim-airline' 
+Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"######## airline font solove method################################
-"the font problem, see myself write below, there are solve method!!!!!
-"########################################
-Plugin 'majutsushi/tagbar'
-Plugin 'powerline/fonts'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 "Plugin 'godlygeek/tabular'
+Plugin 'terryma/vim-multiple-cursors'
 
-"Plugin 'rdnetto/YCM-Generator'
+Plugin 'rdnetto/YCM-Generator'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Valloric/ListToggle'
 Plugin 'vim-syntastic/syntastic'
-"python
-Plugin 'mindriot101/vim-yapf'
 
-
+" python
+Plugin 'hynek/vim-python-pep8-indent'
+Plugin 'vim-flake8'
+Plugin 'lepture/vim-jinja'
 
 " nginx
 "Plugin 'nginx.vim'
@@ -77,19 +74,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " themes
 Plugin 'altercation/vim-colors-solarized'
 
-"switch within .cpp/.h
-"#########need to gco arron branch############################
-Plugin 'ImAaronChou/vim-fswitch'
-"#####################################
-Plugin 'ImAaronChou/BufferControl'
-
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
-
 " the glaive#Install() should go after the "call vundle#end()"
 call glaive#Install()
-Glaive codefmt plugin[mappings]
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -102,7 +91,9 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-" tab navigation like firefox "
+
+" tab navigation like firefox
+"
 
 " syntastic {
 set statusline+=%#warningmsg#
@@ -111,11 +102,11 @@ set statusline+=%*
 set laststatus=2
 
 " python {
-"function! GetPythonExec()
-    "let python_exec = system("which python")
-    "return python_exec
-"endfunction
-"let g:ycm_python_binary_path = 'python'
+function! GetPythonExec()
+    let python_exec = system("which python")
+    return python_exec
+endfunction
+let g:ycm_python_binary_path = 'python'
 "function! GetPythonVersion()
     "let python_version = system("python -c 'import sys; print(sys.version_info[0])'")[0]
     "return python_version
@@ -140,58 +131,23 @@ let g:lt_height = 5
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
 "let g:syntastic_loc_list_height = 5
-"let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_checkers = ['flake8']
 "let g:syntastic_python_flake8_exec = flake8_exec
 " let g:syntastic_python_flake8_exe = 'python3 -m flake8'
 " }
 
 " airline {
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tagbar#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_theme = 'badwolf'
-"let g:airline_section_z = ''
-
-let g:airline#extensions#default#layout = [
-            \ [ 'a', 'b', 'x'],
-            \ [ 'c', 'error', 'warning' ]
-            \ ]
-
-"\ [ 'c', 'y', 'z', 'error', 'warning' ]
-function! AirlineInit()
-    let g:airline_section_c = airline#section#create(['readonly'])
-    let g:airline_section_x = airline#section#create(['tagbar'])
-endfunction
-autocmd User AirlineAfterInit call AirlineInit()
-
-"######## airline font solove method################################
-" air-line
-" powerline/font's install.sh can not install font success
-" see this url for install
-"https://powerline.readthedocs.io/en/latest/installation/linux.html#patched-font-installation
-"or you can copy all *.otf in ~/.vim/bundle/font/* to ~/.local/share/fonts/
-"and run cmd "fc-cache -vf ~/.local/share/fonts/"
-"
-"the cmd is :
-"cp ~/.vim/bundle/font/*/*.otf ~/.local/share/fonts/
-"fc-cache -vf ~/.local/share/fonts/
-"######## airline font solove method################################
 " }
 
-
-"auto format
-function! Formatonsave()
-      :FormatCode
-  endfunction
-  autocmd BufWritePre *.hpp,*.h,*.cc,*.cpp call Formatonsave()
-""
-
 " flake8 {
-"let g:flake8_ignore = "E402"
+let g:flake8_ignore = "E402"
 " }
 
 " google style
+Glaive codefmt plugin[mappings]
 
 set t_Co=256
 let g:solarized_termcolors=256
@@ -212,16 +168,8 @@ set expandtab
 set autoindent
 set hlsearch
 set history=1000
-
-" Let's save undo info!
-if !isdirectory($HOME."/.vim")
-    call mkdir($HOME."/.vim", "", 0770)
-endif
-if !isdirectory($HOME."/.vim/undo_dir")
-    call mkdir($HOME."/.vim/undo_dir", "", 0700)
-endif
-set undodir=~/.vim/undo_dir
 set undofile
+set undodir=/home/moezen/.vimbackup/
 
 set mouse-=a
 set splitbelow
@@ -240,12 +188,11 @@ set hidden
 "nnoremap <C-t>     :tabnew<CR>
 "inoremap <C-t>     <Esc>:tabnew<CR>
 
-"Buffer Controller
 nnoremap <S-H>     :BPrev<CR>
 nnoremap <S-L>     :BNext<CR>
 nnoremap <S-Q>     :Bclose<CR>
 
-" Window Switch 
+" window
 nnoremap <C-h>     <C-W>h<C-W><ESC>
 nnoremap <C-l>     <C-W>l<C-W><ESC>
 nnoremap <C-j>     <C-W>j<C-W><ESC>
@@ -255,10 +202,6 @@ nnoremap <C-k>     <C-W>k<C-W><ESC>
 nnoremap <S-F>     :YcmCompleter FixIt<CR>
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
-
-"vim-fswitch
-nmap <silent> <Leader>sw :FSHere<cr>
-let g:fsnonewfiles='true' 
 
 noremap j gj
 noremap k gk
@@ -298,21 +241,3 @@ augroup bufferignore
 augroup END
 
 au BufNewFile,BufRead *.j2 set ft=jinja
-
-autocmd VimEnter * NERDTree
-
-set pastetoggle=<F2>
-
-set foldenable              " 开始折叠
-set foldmethod=syntax       " 设置语法折叠
-set foldcolumn=0            " 设置折叠区域的宽度
-setlocal foldlevel=1        " 设置折叠层数为
-set foldlevelstart=99       " 打开文件是默认不折叠代码
-
-set ignorecase   "设置默认进行大小写不敏感查找
-set smartcase  " 如果有一个大写字母，则切换到大小写敏感查找
-set incsearch   "即时搜索
-
-"set foldclose=all          " 设置为自动关闭折叠                
-nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
-"                            " 用空格键来开关折叠
