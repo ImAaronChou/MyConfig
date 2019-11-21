@@ -60,8 +60,6 @@ plugins=(git)
 
 
 source $ZSH/oh-my-zsh.sh
-export SIMULATION_DATA_DIR=/home/aaron/work_space/narwel/tool/simulation_data/
-export PITA_DATA_PATH=/home/aaron/Desktop/
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -92,20 +90,17 @@ export PITA_DATA_PATH=/home/aaron/Desktop/
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /opt/ros/kinetic/setup.zsh
-export ROS_MASTER_URI="http://192.168.51.26:11311"
-export ROS_IP="192.168.51.26"
-source /home/aaron/work_space/narwel/tool/simulation_tool/devel/setup.zsh
-
-export MESH_WORKSPACE_PATH=/home/aaron/work_space/narwel/ros_ws/src
+export ROS_MASTER_URI="http://127.0.0.1:11311"
+export ROS_IP="127.0.0.1"
 
 function chpwd() {
     ls -alhG
     }
 
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+#[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+. /usr/share/autojump/autojump.sh
 
 ulimit -c unlimited
 #sudo sysctl -p
-export RELEASE_PATH=/home/aaron/work_space/narwel/catkin_ws/Release
-export ADB_BACKUP_PATH=/home/aaron/work_space/narwel/catkin_ws/robot_backup_data 
-export PATH=$PATH:/usr/local/bin/git-plus
+export PATH=$PATH:/home/aaron/work_space/tool/multi-git
+export SIMULATION_CONFIG_PATH=/home/aaron/SimulationConf
