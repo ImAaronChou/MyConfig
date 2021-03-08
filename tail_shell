@@ -1,0 +1,19 @@
+#!/bin/bash
+
+log_file="/home/aaron/logs/pita_clean_system/room_clean.log.*"
+
+logs='ls /home/aaron/logs/pita_clean_system/room_clean.log.*'
+
+echo ${logs:3}
+while :
+do
+    tail --follow=name $log_file 
+
+    if [ "$?" -nq "0" ]
+        echo "1"
+        continue
+    then
+        break
+    fi
+done
+
