@@ -72,7 +72,14 @@ ZSH_HIGHLIGHT_STYLES[path]='bold'
 ZSH_HIGHLIGHT_STYLES[path_prefix]='bold'
 
 #zsh-autosuggestions配置
+#高亮颜色－紫
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+#最长的补全字段
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+ZSH_AUTOSUGGEST_USE_ASYNC=true
+#创建一个widget
+zle -N autosuggest-accept
+bindkey '^ ' autosuggest-accept
 
 source $ZSH/oh-my-zsh.sh
 # User configuration
