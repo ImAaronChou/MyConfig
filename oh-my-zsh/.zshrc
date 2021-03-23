@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -56,8 +56,30 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git 
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+    )
 
+#zsh-syntax-highlighting config---------------------------
+#最大高亮长度，因为高亮会消耗性能，长度过长会卡，可以用该宏截断
+ZSH_HIGHLIGHT_MAXLENGTH=64
+
+#修改路径高亮为加粗
+(( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[path]='bold'
+ZSH_HIGHLIGHT_STYLES[path_prefix]='bold'
+
+#zsh-autosuggestions配置
+#高亮颜色－紫
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+#最长的补全字段
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+ZSH_AUTOSUGGEST_USE_ASYNC=true
+#创建一个widget
+zle -N autosuggest-accept
+bindkey '^ ' autosuggest-accept
 
 source $ZSH/oh-my-zsh.sh
 # User configuration
@@ -102,5 +124,8 @@ function chpwd() {
 
 ulimit -c unlimited
 #sudo sysctl -p
-export PATH=$PATH:/home/aaron/work_space/tool/multi-git
+export PATH=$PATH:/home/aaron/work_space/tool/git-plus
 export SIMULATION_CONFIG_PATH=/home/aaron/SimulationConf
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
