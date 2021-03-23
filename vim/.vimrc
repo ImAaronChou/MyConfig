@@ -78,9 +78,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'altercation/vim-colors-solarized'
 
 "switch within .cpp/.h
-"#########need to gco arron branch############################
 Plugin 'ImAaronChou/vim-fswitch'
-"#####################################
 Plugin 'ImAaronChou/BufferControl'
 
 
@@ -130,6 +128,7 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_always_populate_location_list = 1
 let g:ycm_show_diagnostics_ui = 1
 let g:ycm_open_loclist_on_ycm_diags = 1
+let g:ycm_server_python_interpreter = '/usr/bin/python'
 
 let g:lt_location_list_toggle_map = '<leader>l'
 let g:lt_quickfix_list_toggle_map = '<leader>q'
@@ -155,7 +154,7 @@ let g:airline_theme = 'badwolf'
 
 let g:airline#extensions#default#layout = [
             \ [ 'a', 'b', 'x'],
-            \ [ 'c', 'error', 'warning' ]
+            \ [ 'c','z', 'error', 'warning' ]
             \ ]
 
 "\ [ 'c', 'y', 'z', 'error', 'warning' ]
@@ -184,7 +183,7 @@ autocmd User AirlineAfterInit call AirlineInit()
 function! Formatonsave()
       :FormatCode
   endfunction
-  autocmd BufWritePre *.hpp,*.h,*.cc,*.cpp call Formatonsave()
+  autocmd BufWritePre *.hpp,*.h,*.cc,*.cpp,*proto call Formatonsave()
 ""
 
 " flake8 {
@@ -279,6 +278,7 @@ let Tlist_WinWidth = 26
 " NERD TREE
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize = 30
+let NERDTreeShowHidden=1
 
 " auto strip whitespace
 map <C-s> 	:StripWhitespace<CR>
@@ -287,6 +287,7 @@ map <C-s> 	:StripWhitespace<CR>
 let g:vim_markdown_folding_disabled = 1
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
+" format state mechine
 xmap ga <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
@@ -316,3 +317,9 @@ set incsearch   "即时搜索
 "set foldclose=all          " 设置为自动关闭折叠                
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 "                            " 用空格键来开关折叠
+let g:syntastic_python_python_exec = '/usr/bin/python' 
+
+"proto syntax
+augroup filetype
+  au! BufRead,BufNewFile *.proto setfiletype proto
+augroup end
