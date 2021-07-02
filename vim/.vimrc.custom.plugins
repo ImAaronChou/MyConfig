@@ -1,0 +1,63 @@
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 用户自定义插件列表（该文件只放插件，若要增加其他配置，请放入~/.vimrc.custom.config）
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" 增加~/.vimrc里没有的插件
+" 增加插件后需要进行插件安装，安装步骤如下：
+" 1.执行:w保存修改
+" 2.执行,s重新加载vim配置
+" 3.执行,,i进行插件安装
+" Plug 'iamcco/mathjax-support-for-mkdp'
+" (需要自己安装nodejs和yarn) Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+" Plug 'Yggdroot/indentLine'
+" Plug 'gorodinskiy/vim-coloresque'
+" Plug 'vim-scripts/DoxygenToolkit.vim'
+
+" 卸载/禁用~/.vimrc里的默认插件
+" UnPlug 'chxuan/prepare-code'
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 安装新的插件 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" 注释插件
+Plug  'scrooloose/nerdcommenter'
+"Doxygen
+Plug  'vim-scripts/DoxygenToolkit.vim'
+
+" google style
+" Add maktaba and codefmt to the runtimepath.
+" (The latter must be installed before it can be used.)
+Plug 'google/vim-maktaba' "vim_script插件库
+Plug  'google/vim-codefmt' "代码格式化，依赖google/vim-maktaba
+" Also add Glaive, which is used to configure codefmt's maktaba flags. See
+" `:help :Glaive` for usage.
+Plug 'google/vim-glaive' "vim-maktaba 的配置插件
+
+"头文件与cpp的跳转插件
+Plug 'ImAaronChou/vim-fswitch'
+"Buffer的操作插件,注意需配合配置添加对应命令消除Bug
+Plug 'ImAaronChou/BufferControl'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 卸载自带的插件 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 新建文件时，生成预定义代码片段
+UnPlug 'chxuan/prepare-code'
+" 优化搜索，移动光标后清除高亮
+UnPlug 'junegunn/vim-slash'
+"代码、注释对齐工具
+UnPlug 'godlygeek/tabular'
+"起始页
+UnPlug 'vimplus-startify'
+"提供生成函数、函数声明/实现跳转
+UnPlug 'chxuan/cpp-mode'
+"vimplus自带的buffer操作，卸载，使用自写的buffer controller
+UnPlug 'chxuan/vim-buffer'
+"vimplus自带的注释插件,使用nerdcommenter
+UnPlug 'vim-commentary'
+"自动增加、替换配对符的插件
+UnPlug 'vim-surround'
+"重复上一次操作
+UnPlug 'vim-repeat'
