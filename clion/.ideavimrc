@@ -62,7 +62,7 @@ nnoremap <c-l> <c-w>l
 "nnoremap <S-L> : action Select NextTab<cr> "左移buffer
 
 "使用clion key map的Select NextTab添加映射
-"nnoremap <S-H> : action Select PreviousTab<cr> "右移buffeH
+"nnoremap <S-H> : action Select PreviousTab<cr> "右移buffer
 
 nnoremap <S-Q> : action CloseEditor<cr> "关闭buffer
 
@@ -95,10 +95,6 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 " Emulated Vim Plugins
 " ==================================================
 set NERDTree
-"目录树开关
-"nnoremap <silent> <c-n> : action ActivateProjectToolWindow<cr>
-"nnoremap <silent> <c-n> :NERDTreeToggle<cr>
-
 
 "set surround
 "set multiple-cursors
@@ -109,9 +105,13 @@ set NERDTree
 " ==================================================
 "跳到对应的cpp/header
 nnoremap <silent> <Leader>sw : action GotoRelated<cr>
-"nnoremap <silent> <Leader>cc : action CommentByLineComment<cr>
+
+"注释
+vnoremap <silent> <Leader>cc : action CommentByLineComment<cr>
+
 "跳转到函数定义
 nnoremap <leader>jd : action  GotoDeclaration<cr>
+
 "打开文件搜索框
 nnoremap <c-p> : action GotoFile<cr>
 
