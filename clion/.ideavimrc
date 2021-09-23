@@ -100,6 +100,9 @@ set NERDTree
 "set multiple-cursors
 "set commentary
 
+"打开进入normal模式后，自动切到英文输入法开关
+set keep-english-in-normal
+
 " ==================================================
 " 自定义key map
 " ==================================================
