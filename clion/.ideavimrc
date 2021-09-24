@@ -118,5 +118,9 @@ nnoremap <leader>jd : action  GotoDeclaration<cr>
 "打开文件搜索框
 nnoremap <c-p> : action GotoFile<cr>
 
+"格式化
+vnoremap <silent> <Leader>= : action ReformatCode<cr>
+
+
 
 
