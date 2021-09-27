@@ -13,7 +13,6 @@
 " Plug 'Yggdroot/indentLine'
 " Plug 'gorodinskiy/vim-coloresque'
 " Plug 'vim-scripts/DoxygenToolkit.vim'
-
 " 卸载/禁用~/.vimrc里的默认插件
 " UnPlug 'chxuan/prepare-code'
 "
@@ -35,6 +34,9 @@ Plug  'google/vim-codefmt' "代码格式化，依赖google/vim-maktaba
 " `:help :Glaive` for usage.
 Plug 'google/vim-glaive' "vim-maktaba 的配置插件
 
+"全局grep插件，可全局替换函数名
+Plug 'dkprice/vim-easygrep'
+
 "头文件与cpp的跳转插件
 Plug 'ImAaronChou/vim-fswitch'
 "Buffer的操作插件,注意需配合配置添加对应命令消除Bug
@@ -50,14 +52,16 @@ UnPlug 'junegunn/vim-slash'
 "代码、注释对齐工具
 UnPlug 'godlygeek/tabular'
 "起始页
-UnPlug 'vimplus-startify'
+UnPlug 'chxuan/vimplus-startify'
 "提供生成函数、函数声明/实现跳转
 UnPlug 'chxuan/cpp-mode'
 "vimplus自带的buffer操作，卸载，使用自写的buffer controller
 UnPlug 'chxuan/vim-buffer'
 "vimplus自带的注释插件,使用nerdcommenter
-UnPlug 'vim-commentary'
+UnPlug 'tpope/vim-commentary'
 "自动增加、替换配对符的插件
-UnPlug 'vim-surround'
+UnPlug 'tpope/vim-surround'
 "重复上一次操作
-UnPlug 'vim-repeat'
+UnPlug 'tpope/vim-repeat'
+"自动补括号引号等符号
+UnPlug 'jiangmiao/auto-pairs'
