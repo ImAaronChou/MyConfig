@@ -1,0 +1,155 @@
+FROM ubuntu:20.04
+
+SHELL ["/bin/bash", "-c"]
+
+#如果没安装ca证书，会导致github证书不被信任，使用该变量可跳过git的证书验证
+ENV GIT_SSL_NO_VERIFY=1
+
+#更新apt源
+RUN sed -i "s/archive.ubuntu.com/mirrors.163.com/g" /etc/apt/sources.list && \
+    sed -i "s/security.ubuntu.com/mirrors.163.com/g" /etc/apt/sources.list && \
+    apt-get update 
+
+#高版本的Ycm会要求高版本的python3，当前docker使用了一个习惯使用的旧版本ycm，可使用apt-get安装的python3.8
+#安装Python3.10.0
+#python3.10编译github自有ycm会报错
+#RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    #make \ 
+    #build-essential \
+    #libssl-dev \
+    #zlib1g-dev \
+    #libbz2-dev \
+    #libreadline-dev \
+    #libsqlite3-dev \
+    #wget \
+    #curl \
+    #llvm \
+    #libncurses5-dev \
+    #libncursesw5-dev \
+    #xz-utils \
+    #tk-dev && \
+    #wget --no-check-certificate https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tar.xz && \
+    #tar -xvf Python-3.10.0.tar.xz && \
+    #cd Python-3.10.0 && \ 
+    #./configure --enable-optimizations && \
+    ##核数使用nproc可获取
+    #make -j 8 && \ 
+    ## make altinstall可保持默认python执行路径为/usr/bin/python
+    #make altinstall
+
+#安装vim
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    build-essential \
+    libncurses5-dev \
+    libgtk2.0-dev \
+    libatk1.0-dev \
+    libcairo2-dev \
+    libx11-dev \
+    libxpm-dev \
+    libxt-dev \
+    python3-dev \
+    lua5.2 \
+    liblua5.2-dev \
+    libperl-dev \
+    git && \
+    git clone https://github.com/ImAaronChou/vim.git && \
+    cd vim && \
+    ./configure --with-features=huge \
+                  --enable-multibyte \
+                  --enable-rubyinterp=yes \ 
+                  --enable-python3interp=yes \
+                  --with-python3-config-dir=$(python3-config --configdir) \
+                  --enable-perlinterp=yes \
+                  --enable-luainterp=yes \
+                  --enable-gui=gtk2 \ 
+                  --enable-cscope \
+                  --prefix=/usr/local && \
+    make VIMRUNTIMEDIR=/usr/local/share/vim/vim81 -j8 && \
+    make install && \ 
+    update-alternatives --install /usr/bin/editor editor /usr/local/bin/vim 1 && \
+    update-alternatives --set editor /usr/local/bin/vim && \
+    update-alternatives --install /usr/bin/vi vi /usr/local/bin/vim 1 && \
+    update-alternatives --set vi /usr/local/bin/vim
+
+
+#需要在.vimrc中加入let g:ycm_clangd_binary_path = "/usr/bin/clangd"
+#安装clangd
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    wget \
+    unar && \ 
+    wget https://github.com/clangd/clangd/releases/download/13.0.0/clangd-linux-13.0.0.zip &&\
+    unar clangd-linux-13.0.0.zip && \
+    cp -r clangd_13.0.0/bin /usr && \
+    cp -r clangd_13.0.0/lib /usr && \
+    rm clangd-linux-13.0.0.zip && \
+    rm -r clangd_13.0.0
+
+#当前ycm推荐使用clangd,更能更多更快
+#下载libclang
+#RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    #wget &&\
+    #wget https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04.tar.xz &&\
+    #tar -xf clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04.tar.xz && \
+    #rm clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04.tar.xz
+
+#下载Ycm
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    git &&\
+    git clone https://github.com/ImAaronChou/YouCompleteMe.git ~/.vim/plugged/YouCompleteMe &&\
+    cd ~/.vim/plugged/YouCompleteMe &&\
+    git submodule update --init --recursive 
+
+#编译ycm_core
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    cmake \
+    python3-dev && \
+    cd ~/.vim/plugged/YouCompleteMe &&\
+    mkdir ycm_build && \
+    cd ycm_build && \
+    cmake \
+    #cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=/clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04 . ~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp && \
+    -G "Unix Makefiles" . ~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp && \
+    cmake --build . --target ycm_core
+
+#编译ycm watchdog
+RUN cd ~/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/watchdog_deps/watchdog/ &&\ 
+    mkdir -p build/lib3 &&\
+    cp -r src/watchdog build/lib3 
+
+#安装vim plus
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    git && \
+    git clone https://github.com/ImAaronChou/vimplus.git /root/vimplus && \
+    #拷贝基本文件
+    ln -s /root/vimplus/.vimrc ~/.vimrc && \
+    ln -s /root/vimplus/.vimrc.custom.config ~/.vimrc.custom.config && \
+    ln -s /root/vimplus/.vimrc.custom.plugins ~/.vimrc.custom.plugins && \
+    ln -s /root/vimplus/.ycm_extra_conf.py ~/.ycm_extra_conf.py && \
+    ln -s /root/vimplus/colors ~/.vim/colors && \
+    ln -s /root/vimplus/ftplugin ~/.vim/ftplugin && \
+    ln -s /root/vimplus/autoload ~/.vim/autoload && \
+    #安装字体
+    mkdir -p ~/.local/share/fonts && \
+    rm -rf ~/.local/share/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf && \
+    cp /root/vimplus/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf ~/.local/share/fonts && \ 
+    fc-cache -vf ~/.local/share/fonts 
+
+#安装插件，由于vim执行该命令会固定返回1，所以强制返回0使该命令成功
+RUN vim -E -s -u "~/.vimrc" +PlugInstall +qa; exit 0
+
+#YCM plugin和ycmd可以使用不同的python且可正常兼容通信，ycm plugin为前端读取代码显示匹配，ycmd为后端负责解析代码
+#这两行加到.vimrc可达到vim与ycm编译使用不同的python
+#let g:ycm_path_to_python_interpreter = /path/to/python2.6
+#let g:ycm_python_binary_path = /path/to/python3.5
+
+#该套ycm使用clangd,而不是libclang,clangd默认读database,暂时不兼容.ycm_extra_conf
+#只有使用libclang的才可以同时读database和flags,但后期ycm会迁移到clangd,clangd速度更快功能更多
+#目前只有二选一，只有vimplus优化过的ycm可以将libclang的flags传给clangd使用,达到同时使用clangd和libclang的目的
+
+
+#ros env
+#RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && \
+    #wget --no-check-certificat https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc && apt-key add ros.asc && \
+    #apt-get update && apt-get install -y \
+    #ros-kinetic-desktop \
+    #&& rm -rf /var/lib/apt/lists/*
