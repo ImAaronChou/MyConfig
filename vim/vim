@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+docker run -it --rm \
+    --user $USER \
+    --net=host \
+    -e DISPLAY=$DISPLAY \
+    -v $HOME:$HOME \
+    vim_env:latest \
+    bash -c "cd $(pwd) && vim $*"
+
+
+

@@ -64,7 +64,7 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
                   --enable-gui=gtk2 \ 
                   --enable-cscope \
                   --prefix=/usr/local && \
-    make VIMRUNTIMEDIR=/usr/local/share/vim/vim81 -j8 && \
+    make VIMRUNTIMEDIR=/usr/local/share/vim/vim82 -j8 && \
     make install && \ 
     update-alternatives --install /usr/bin/editor editor /usr/local/bin/vim 1 && \
     update-alternatives --set editor /usr/local/bin/vim && \
@@ -136,6 +136,14 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
 
 #安装插件，由于vim执行该命令会固定返回1，所以强制返回0使该命令成功
 RUN vim -E -s -u "~/.vimrc" +PlugInstall +qa; exit 0
+
+# setup timezone
+
+RUN ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo Asia/Shanghai > /etc/timezone
+
+# setup environment
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
 
 #YCM plugin和ycmd可以使用不同的python且可正常兼容通信，ycm plugin为前端读取代码显示匹配，ycmd为后端负责解析代码
 #这两行加到.vimrc可达到vim与ycm编译使用不同的python
