@@ -5,9 +5,13 @@ docker run -it --rm \
     --user $USER \
     --net=host \
     -e DISPLAY=$DISPLAY \
+    -e COLUMNS=$(tput cols)\
+    -e LINES=$(tput lines)\
     -v $HOME:$HOME \
     vim_env:latest \
     bash -c "cd $(pwd) && vim $*"
+
+#COLUMNS & LINES通过传入terminal的大小避免导致scrollback buffer错乱，防止vim画面乱码
 
 
 
