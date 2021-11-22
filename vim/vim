@@ -1,17 +1,19 @@
 #!/bin/bash
 
+VIM_CMD=""
+
+if [ -z $1 ];then
+    VIM_CMD="cd /host/$(pwd) && vim"
+else
+    VIM_CMD="vim /host/$(realpath $1)"
+fi
 
 docker run -it --rm \
-    --user $USER \
-    --net=host \
-    -e DISPLAY=$DISPLAY \
     -e COLUMNS=$(tput cols)\
     -e LINES=$(tput lines)\
-    -v $HOME:$HOME \
+    -v /:/host \
     vim_env:latest \
-    bash -c "cd $(pwd) && vim $*"
-
-#COLUMNS & LINES通过传入terminal的大小避免导致scrollback buffer错乱，防止vim画面乱码
+    bash -c "$VIM_CMD"
 
 
 
