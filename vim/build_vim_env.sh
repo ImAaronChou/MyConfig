@@ -1,5 +1,6 @@
 #!/usr/bin/zsh
 
+
 rm tmp_vim_env_Dockfile
 cp ./Dockerfile ./tmp_vim_env_Dockfile
 
@@ -16,7 +17,7 @@ RUN mkdir -p ${HOME} && \\
     echo "export DISPLAY=${DISPLAY}" >> /etc/profile
 EOF
 
-docker build . -t vim_env -f ./tmp_vim_env_Dockfile
+docker build . --build-arg REBUILD_VAR=$(date +%Y%m%d-%H%M%S)  -t vim_env -f ./tmp_vim_env_Dockfile
 rm tmp_vim_env_Dockfile
 cp ./vim ~/.local/bin
 

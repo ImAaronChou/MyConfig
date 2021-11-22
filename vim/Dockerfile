@@ -116,34 +116,43 @@ RUN cd ~/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/watchdog_deps/w
     mkdir -p build/lib3 &&\
     cp -r src/watchdog build/lib3 
 
-#安装vim plus
-RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
-    git && \
-    git clone https://github.com/ImAaronChou/vimplus.git /root/vimplus && \
-    #拷贝基本文件
-    ln -s /root/vimplus/.vimrc ~/.vimrc && \
-    ln -s /root/vimplus/.vimrc.custom.config ~/.vimrc.custom.config && \
-    ln -s /root/vimplus/.vimrc.custom.plugins ~/.vimrc.custom.plugins && \
-    ln -s /root/vimplus/.ycm_extra_conf.py ~/.ycm_extra_conf.py && \
-    ln -s /root/vimplus/colors ~/.vim/colors && \
-    ln -s /root/vimplus/ftplugin ~/.vim/ftplugin && \
-    ln -s /root/vimplus/autoload ~/.vim/autoload && \
-    #安装字体
-    mkdir -p ~/.local/share/fonts && \
-    rm -rf ~/.local/share/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf && \
-    cp /root/vimplus/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf ~/.local/share/fonts && \ 
-    fc-cache -vf ~/.local/share/fonts 
-
-#安装插件，由于vim执行该命令会固定返回1，所以强制返回0使该命令成功
-RUN vim -E -s -u "~/.vimrc" +PlugInstall +qa; exit 0
-
 # setup timezone
-
 RUN ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo Asia/Shanghai > /etc/timezone
 
 # setup environment
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
+
+
+#安装vim plus
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    git && \
+    git clone https://github.com/ImAaronChou/vimplus.git /root/vimplus && \
+    #拷贝基本文件
+    ln -s /root/vimplus/.ycm_extra_conf.py ~/.ycm_extra_conf.py && \
+    ln -s /root/vimplus/colors ~/.vim/colors && \
+    ln -s /root/vimplus/ftplugin ~/.vim/ftplugin && \
+    ln -s /root/vimplus/autoload ~/.vim/autoload && \
+    mkdir -p ~/.local/share/fonts && \
+    rm -rf ~/.local/share/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf && \
+    cp /root/vimplus/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf ~/.local/share/fonts && \ 
+    fc-cache -vf ~/.local/share/fonts
+
+#触发每次构建都重新安装插件
+ARG REBUILD_VAR=unknow
+
+#安装插件，由于vim执行该命令会固定返回1，所以强制返回0使该命令成功
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    git && \
+    git clone https://github.com/ImAaronChou/MyConfig.git /root/MyConfig && \
+    cd /root/MyConfig &&\
+    git checkout ubuntu &&\
+    ln -s /root/MyConfig/vim/.vimrc ~/.vimrc && \
+    ln -s /root/MyConfig/vim/.vimrc.custom.config ~/.vimrc.custom.config && \
+    ln -s /root/MyConfig/vim/.vimrc.custom.plugins ~/.vimrc.custom.plugins && \
+    vim -E -s -u "~/.vimrc" +PlugInstall +qa; exit 0
+
+
 
 #YCM plugin和ycmd可以使用不同的python且可正常兼容通信，ycm plugin为前端读取代码显示匹配，ycmd为后端负责解析代码
 #这两行加到.vimrc可达到vim与ycm编译使用不同的python
