@@ -10,33 +10,6 @@ RUN sed -i "s/archive.ubuntu.com/mirrors.163.com/g" /etc/apt/sources.list && \
     sed -i "s/security.ubuntu.com/mirrors.163.com/g" /etc/apt/sources.list && \
     apt-get update 
 
-#高版本的Ycm会要求高版本的python3，当前docker使用了一个习惯使用的旧版本ycm，可使用apt-get安装的python3.8
-#安装Python3.10.0
-#python3.10编译github自有ycm会报错
-#RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
-    #make \ 
-    #build-essential \
-    #libssl-dev \
-    #zlib1g-dev \
-    #libbz2-dev \
-    #libreadline-dev \
-    #libsqlite3-dev \
-    #wget \
-    #curl \
-    #llvm \
-    #libncurses5-dev \
-    #libncursesw5-dev \
-    #xz-utils \
-    #tk-dev && \
-    #wget --no-check-certificate https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tar.xz && \
-    #tar -xvf Python-3.10.0.tar.xz && \
-    #cd Python-3.10.0 && \ 
-    #./configure --enable-optimizations && \
-    ##核数使用nproc可获取
-    #make -j 8 && \ 
-    ## make altinstall可保持默认python执行路径为/usr/bin/python
-    #make altinstall
-
 #安装vim
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
     build-essential \
@@ -47,7 +20,7 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
     libx11-dev \
     libxpm-dev \
     libxt-dev \
-    python3-dev \
+    python3-dev \ 
     lua5.2 \
     liblua5.2-dev \
     libperl-dev \
@@ -138,19 +111,15 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
     cp /root/vimplus/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf ~/.local/share/fonts && \ 
     fc-cache -vf ~/.local/share/fonts
 
-#触发每次构建都重新安装插件
 ARG REBUILD_VAR=unknow
-
-#安装插件，由于vim执行该命令会固定返回1，所以强制返回0使该命令成功
+#触发每次构建都重新安装插件
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
-    git && \
-    git clone https://github.com/ImAaronChou/MyConfig.git /root/MyConfig && \
-    cd /root/MyConfig &&\
-    git checkout ubuntu &&\
-    ln -s /root/MyConfig/vim/.vimrc ~/.vimrc && \
-    ln -s /root/MyConfig/vim/.vimrc.custom.config ~/.vimrc.custom.config && \
-    ln -s /root/MyConfig/vim/.vimrc.custom.plugins ~/.vimrc.custom.plugins && \
+    wget &&\
+    wget https://github.com/ImAaronChou/MyConfig/raw/ubuntu/vim/.vimrc -O ~/.vimrc && \
+    wget https://github.com/ImAaronChou/MyConfig/raw/ubuntu/vim/.vimrc.custom.config -O ~/.vimrc.custom.config && \
+    wget https://github.com/ImAaronChou/MyConfig/raw/ubuntu/vim/.vimrc.custom.plugins -O  ~/.vimrc.custom.plugins && \
     vim -E -s -u "~/.vimrc" +PlugInstall +qa; exit 0
+#安装插件，由于vim执行该命令会固定返回1，所以强制返回0使该命令成功
 
 
 
@@ -164,9 +133,3 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
 #目前只有二选一，只有vimplus优化过的ycm可以将libclang的flags传给clangd使用,达到同时使用clangd和libclang的目的
 
 
-#ros env
-#RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && \
-    #wget --no-check-certificat https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc && apt-key add ros.asc && \
-    #apt-get update && apt-get install -y \
-    #ros-kinetic-desktop \
-    #&& rm -rf /var/lib/apt/lists/*
