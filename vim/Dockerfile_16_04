@@ -1,4 +1,3 @@
-#FROM ubuntu:20.04
 FROM ubuntu:xenial
 
 SHELL ["/bin/bash", "-c"]
@@ -113,15 +112,21 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
     #g++-8 &&\
     ##update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 700 --slave /usr/bin/g++ g++ /usr/bin/g++-7 &&\
     #update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    software-properties-common &&\ 
+    add-apt-repository ppa:ubuntu-toolchain-r/test && \
+    apt-get update && \
+    DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    gcc-8 g++-8
 
 ##编译ycm_core
-#RUN cd ~/.vim/plugged/YouCompleteMe &&\
-    #mkdir ycm_build && \
-    #cd ycm_build && \
-    #cmake \
-    ##cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=/clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04 . ~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp && \
-    #-G "Unix Makefiles" . ~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp && \
-    #cmake --build . --target ycm_core
+RUN cd ~/.vim/plugged/YouCompleteMe &&\
+    mkdir ycm_build && \
+    cd ycm_build && \
+    cmake \
+    #cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=/clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04 . ~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp && \
+    -G "Unix Makefiles" . ~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp && \
+    cmake --build . --target ycm_core
 
 ##编译ycm watchdog
 #RUN cd ~/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/watchdog_deps/watchdog/ &&\ 
