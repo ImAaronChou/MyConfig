@@ -59,7 +59,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git 
     zsh-syntax-highlighting
-    zsh-autosuggestions
     )
 
 #zsh-syntax-highlighting config---------------------------
@@ -111,9 +110,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source /opt/ros/kinetic/setup.zsh
-export ROS_MASTER_URI="http://127.0.0.1:11311"
-export ROS_IP="127.0.0.1"
 
 function chpwd() {
     ls -alhG
@@ -124,8 +120,11 @@ function chpwd() {
 
 ulimit -c unlimited
 #sudo sysctl -p
-export PATH=$PATH:/home/aaron/work_space/tool/git-plus
-export SIMULATION_CONFIG_PATH=/home/aaron/SimulationConf
+export PATH=$PATH:/home/aaron/workspace/env/git-plus
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH=$PATH:~/.local/bin/
+export PATH=$PATH:/home/aaron/workspace/env/clion-2021.3/bin/
+
