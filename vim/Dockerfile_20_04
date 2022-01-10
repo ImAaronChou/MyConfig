@@ -111,6 +111,11 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
     cp /root/vimplus/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf ~/.local/share/fonts && \ 
     fc-cache -vf ~/.local/share/fonts
 
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    wget &&\
+    wget https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/clang-13.0.0.src.tar.xz &&\
+    tar -xvf clang-13.0.0.src.tar.xz
+
 ARG REBUILD_VAR=unknow
 #触发每次构建都重新安装插件
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
