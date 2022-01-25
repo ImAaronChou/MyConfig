@@ -111,11 +111,14 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommen
     cp /root/vimplus/fonts/Droid\ Sans\ Mono\ Nerd\ Font\ Complete.otf ~/.local/share/fonts && \ 
     fc-cache -vf ~/.local/share/fonts
 
-##下载clang-format,codefmt有内置
+##下载clang-format,vim使用codefmt格式化，需要依赖系统的，或者是单独下载的clang-format可执行文件
+#clang-format可使用apt-get或在github上下载，clang-format的二进制文件在llvm包内而不在clang包内，注意！！！
 #RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
     #wget &&\
-    #wget https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/clang-13.0.0.src.tar.xz &&\
-    #tar -xvf clang-13.0.0.src.tar.xz 
+    #wget https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/llvm-13.0.0.src.tar.xz
+    #tar -xvf llvm-13.0.0.src.tar.xz 
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -q -y --no-install-recommends \
+    clang-format
 
 ARG REBUILD_VAR=unknow
 #触发每次构建都重新安装插件
