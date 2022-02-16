@@ -1,17 +1,26 @@
 #!/bin/bash
 
-VIM_CMD=""
+#创建undo_dir目录
+UNDO_DIR="${HOME}/.vim/undo_dir"
+if [ ! -d ${UNDO_DIR} ];then
+    mkdir -p ${UNDO_DIR}
+    chmod 770 ${UNDO_DIR}
+fi
 
+VIM_CMD=""
 if [ -z $1 ];then
-    VIM_CMD="cd /host/$(pwd) && vim"
+    VIM_CMD="vim"
 else
     VIM_CMD="vim /host/$(realpath $1)"
 fi
 
 docker run -it --rm \
+    --user ${USER} \
     -e COLUMNS=$(tput cols)\
     -e LINES=$(tput lines)\
     -v /:/host \
+    -v ${HOME}/.vim/undo_dir:${HOME}/.vim/undo_dir \
+    -w /host/$(pwd) \
     vim_env:latest \
     bash -c "$VIM_CMD"
 
