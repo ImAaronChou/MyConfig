@@ -1,3 +1,30 @@
+"" Source your .vimrc
+"source ~/.vimrc
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
+
+
+" Find more examples here: https://jb.gg/share-ideavimrc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 通用设置
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -45,6 +72,7 @@ set nofoldenable         " 禁用折叠代码
 set wildmenu             " vim自身命名行模式智能补全
 set completeopt-=preview " 补全时不显示窗口，只显示补全列表
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 分屏窗口移动
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -58,11 +86,10 @@ nnoremap <c-l> <c-w>l
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "切换tab的快捷键使用action会导致切换后变成输入模式，无法连续切换
 
+"使用clion key map的Select NextTab添加映:
+nnoremap <s-l> :action NextTab<cr> "左移buffeH
 "使用clion key map的Select NextTab添加映射
-"nnoremap <S-L> : action Select NextTab<cr> "左移buffer
-
-"使用clion key map的Select NextTab添加映射
-"nnoremap <S-H> : action Select PreviousTab<cr> "右移buffer
+nnoremap <s-h> :action PreviousTab<cr> "右移buffeH
 
 nnoremap <S-Q> : action CloseEditor<cr> "关闭buffer
 
@@ -94,8 +121,8 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 " ==================================================
 " Emulated Vim Plugins
 " ==================================================
+"Plug 'preservim/nerdtree`
 set NERDTree
-
 "set surround
 "set multiple-cursors
 "set commentary
@@ -120,6 +147,11 @@ nnoremap <c-p> : action GotoFile<cr>
 
 "格式化
 vnoremap <silent> <Leader>= : action ReformatCode<cr>
+
+nnoremap <c-o> :action Back<cr>
+nnoremap <c-i> :action Forward<cr>
+nnoremap <c-r> :action $Redo<cr>
+nnoremap <c-n> :NERDTreeFocus<cr>
 
 
 
