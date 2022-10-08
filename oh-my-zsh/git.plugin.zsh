@@ -77,6 +77,7 @@ alias gcm='git checkout master'
 alias gcd='git checkout develop'
 alias gcmsg='git commit -m'
 alias gco='git checkout'
+alias gmco='git multi checkout'
 alias gcount='git shortlog -sn'
 compdef _git gcount
 alias gcp='git cherry-pick'
@@ -95,6 +96,7 @@ gdv() { git diff -w "$@" | view - }
 compdef _git gdv=git-diff
 
 alias gf='git fetch'
+alias gmf='git multi fetch'
 alias gfa='git fetch --all --prune'
 alias gfo='git fetch origin'
 
@@ -184,6 +186,7 @@ alias glp="_git_log_prettily"
 compdef _git glp=git-log
 
 alias gm='git merge'
+alias gmm='git multi merge'
 alias gmom='git merge origin/master'
 alias gmt='git mergetool --no-prompt'
 alias gmtvim='git mergetool --no-prompt --tool=vimdiff'
@@ -221,6 +224,7 @@ alias gsps='git show --pretty=short --show-signature'
 alias gsr='git svn rebase'
 alias gss='git status -s'
 alias gst='git status'
+alias gmst='git multi status'
 alias gsta='git stash save'
 alias gstaa='git stash apply'
 alias gstc='git stash clear'
@@ -237,7 +241,11 @@ alias gunignore='git update-index --no-assume-unchanged'
 alias gunwip='git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1'
 alias gup='git pull --rebase'
 alias gupv='git pull --rebase -v'
-alias glum='git pull upstream master'
+alias gupa='git pull --rebase --autostash'
+alias gupav='git pull --rebase --autostash -v'
+alias gupom='git pull --rebase origin $(git_main_branch)'
+alias gupomi='git pull --rebase=interactive origin $(git_main_branch)'
+alias glum='git pull upstream $(git_main_branch)'
 
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip-- [skip ci]"'
