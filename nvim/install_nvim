@@ -1,0 +1,37 @@
+#!/bin/bash
+
+install_packages() {
+    local packages="$@"
+    local PREFIX=''	
+    if [ $(id -u) -ne 0 ]; then
+        # 如果当前用户不是管理员，则使用 sudo 命令执行安装操作
+	# 使用-E传递noninteractive参数,环境变量不对sudo生效
+	PREFIX='sudo -E DEBIAN_FRONTEND=noninteractive'
+    fi
+
+    # 检查软件包是否已经安装
+    for pkg in $packages; do
+        if ! dpkg-query -W -f='${Status}' $pkg 2>/dev/null | grep -q "^install"; then
+            $PREFIX apt-get install -q -y --no-install-recommends --fix-missing $packages
+        fi
+    done
+}
+
+sudo apt-get update
+#安装依赖
+install_packages wget python3-neovim  
+
+#下载最新的nvim并软链到/urs/bin
+wget --no-check-certificate https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz -O $HOME/nvim-linux64.tar.gz
+tar -zxvf $HOME/nvim-linux64.tar.gz -C $HOME 
+sudo ln -s $HOME/nvim-linux64/bin/nvim /usr/bin/nvim
+
+#使用nvim替换vim和vi作为默认编辑器，如git commit的输入调用会调用nvim
+sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+sudo update-alternatives --config vi
+sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+sudo update-alternatives --config vim
+sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+sudo update-alternatives --config editor
+
+

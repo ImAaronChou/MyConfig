@@ -1,0 +1,14 @@
+#!/bin/bash
+
+docker run -it --rm \
+    --user ${USER} \
+    --network host \
+    -e COLUMNS=$(tput cols)\
+    -e LINES=$(tput lines)\
+    -v /:/host \
+    -w /host/$(pwd) \
+    nvim_test:latest 
+
+
+
+
