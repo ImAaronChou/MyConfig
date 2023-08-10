@@ -2,6 +2,7 @@
   title_use_system_font = False
   title_font = MesloLGS NF 9
 [keybindings]
+  hide_window = None
   edit_tab_title = None
 [profiles]
   [[default]]
