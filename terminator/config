@@ -2,10 +2,11 @@
   title_use_system_font = False
   title_font = MesloLGS NF 9
 [keybindings]
+  edit_tab_title = None
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
-    font = MesloLGS NF 11
+    font = MesloLGLDZ Nerd Font Mono 11
     show_titlebar = False
     use_system_font = False
 [layouts]
