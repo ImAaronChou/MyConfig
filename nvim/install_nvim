@@ -19,7 +19,17 @@ install_packages() {
 
 sudo apt-get update
 #安装依赖
-install_packages wget python3-neovim  
+install_packages wget python3-neovim git npm zip unzip curl python3-venv xclip build-essential
+
+#插件telescope.nvim依赖
+install_packages ripgrep fd-find
+
+#下载最新的nodejs(copilot插件要求)
+#这一步需确保有代理或者梯子，否则易失败，如果成功，nodejs版本最少为20.x
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+install_packages nodejs
+
+export PATH="$HOME/.local/bin:$PATH"
 
 #下载最新的nvim并软链到/urs/bin
 wget --no-check-certificate https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz -O $HOME/nvim-linux64.tar.gz

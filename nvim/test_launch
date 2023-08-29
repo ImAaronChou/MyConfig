@@ -1,8 +1,11 @@
 #!/bin/bash
 
-docker run -it --rm \
+docker run -it \
+    --name nvim_env \
     --user ${USER} \
-    --network host \
+    --net=host \
+    -e DISPLAY=$DISPLAY \
+    -v $HOME/.Xauthority:/root/.Xauthority \
     -e COLUMNS=$(tput cols)\
     -e LINES=$(tput lines)\
     -v /:/host \
