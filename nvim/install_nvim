@@ -1,20 +1,20 @@
 #!/bin/bash
 
 install_packages() {
-    local packages="$@"
-    local PREFIX=''	
-    if [ $(id -u) -ne 0 ]; then
-        # 如果当前用户不是管理员，则使用 sudo 命令执行安装操作
-	# 使用-E传递noninteractive参数,环境变量不对sudo生效
-	PREFIX='sudo -E DEBIAN_FRONTEND=noninteractive'
-    fi
+	local packages="$@"
+	local PREFIX=''
+	if [ $(id -u) -ne 0 ]; then
+		# 如果当前用户不是管理员，则使用 sudo 命令执行安装操作
+		# 使用-E传递noninteractive参数,环境变量不对sudo生效
+		PREFIX='sudo -E DEBIAN_FRONTEND=noninteractive'
+	fi
 
-    # 检查软件包是否已经安装
-    for pkg in $packages; do
-        if ! dpkg-query -W -f='${Status}' $pkg 2>/dev/null | grep -q "^install"; then
-            $PREFIX apt-get install -q -y --no-install-recommends --fix-missing $packages
-        fi
-    done
+	# 检查软件包是否已经安装
+	for pkg in $packages; do
+		if ! dpkg-query -W -f='${Status}' $pkg 2>/dev/null | grep -q "^install"; then
+			$PREFIX apt-get install -q -y --no-install-recommends --fix-missing $packages
+		fi
+	done
 }
 
 sudo apt-get update
@@ -26,14 +26,25 @@ install_packages ripgrep fd-find
 
 #下载最新的nodejs(copilot插件要求)
 #这一步需确保有代理或者梯子，否则易失败，如果成功，nodejs版本最少为20.x
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-install_packages nodejs
+#=========nodejs============
+install_packages ca-certificates gnupg
+
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+
+NODE_MAJOR=20
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+
+sudo apt-get update
+install_packages nodejs 
+#======================
+
 
 export PATH="$HOME/.local/bin:$PATH"
 
 #下载最新的nvim并软链到/urs/bin
 wget --no-check-certificate https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz -O $HOME/nvim-linux64.tar.gz
-tar -zxvf $HOME/nvim-linux64.tar.gz -C $HOME 
+tar -zxvf $HOME/nvim-linux64.tar.gz -C $HOME
 sudo ln -s $HOME/nvim-linux64/bin/nvim /usr/bin/nvim
 
 #使用nvim替换vim和vi作为默认编辑器，如git commit的输入调用会调用nvim
@@ -43,5 +54,3 @@ sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
 sudo update-alternatives --config vim
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 sudo update-alternatives --config editor
-
-
