@@ -1,0 +1,311 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="j1" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/output/contants/VoiceDef.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_clean_system/conf/both/voice.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="153" column="41" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_msgs/msg/RobotInfo.msg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_msgs/msg/IoSensor.msg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_msgs/msg/Velocity.msg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_msgs/msg/Voronoi.msg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_msgs/srv/BaseDriverCmd.srv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_msgs/msg/BaseState.msg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/monitor/MonitorModule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pita_communicator/conf/conf_tina35/log.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="737">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="ObjectiveC">
+      <summary usageCount="21" lastUsed="1692847863335" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="6" lastUsed="1692847796365" />
+    </fileType>
+    <fileType name="YAML">
+      <summary usageCount="6" lastUsed="1692847926434" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GetToken</find>
+      <find>RobotGetObsToken</find>
+      <find>frame::log</find>
+      <find>token</find>
+      <find>Logging::</find>
+      <find>low_power_idle</find>
+      <find>shutdown</find>
+      <find>batt</find>
+      <find>base_ver</find>
+      <find>charge_status</find>
+      <find>battery_per</find>
+      <find>battery</find>
+      <find>battery_</find>
+      <find>Battery</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/pita_communicator/src/pita/communicator/services</dir>
+      <dir>$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network</dir>
+      <dir>$PROJECT_DIR$/pita_communicator/src/pita/communicator/schedules/tasks</dir>
+      <dir>$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/output/contants</dir>
+      <dir>$PROJECT_DIR$/pita_monitor</dir>
+      <dir>$PROJECT_DIR$/pita_clean_system/conf/both</dir>
+      <dir>$PROJECT_DIR$/pita_msgs</dir>
+      <dir>$PROJECT_DIR$/pita_msgs/msg</dir>
+      <dir>$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/monitor</dir>
+      <dir>$PROJECT_DIR$/pita_communicator/conf/conf_tina35</dir>
+      <dir>$PROJECT_DIR$/pita_comm</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/ObsService.cpp" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="ObjectiveC">
+      <summary usageCount="21" lastUsage="1692847863335" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="6" lastUsage="1692847796365" />
+    </language>
+    <language id="yaml">
+      <summary usageCount="6" lastUsage="1692847926434" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8997000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18479437" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Services" order="9" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
+      <window_info anchor="right" id="Translation.Wordbook" order="2" side_tool="true" />
+      <window_info anchor="right" id="make" order="3" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1692882595459">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1692882595459" />
+    <state x="405" y="66" width="1356" height="883" key="find.popup" timestamp="1692859428787">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="405" y="66" width="1356" height="883" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1692859428787" />
+    <state x="659" y="259" width="687" height="686" key="search.everywhere.popup" timestamp="1692847926449">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="687" height="686" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1692847926449" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/ObsService.cpp" />
+    <entry file="file://$PROJECT_DIR$/pita_communicator/conf/conf_r16/log.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/WebsocketSenderService.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network/NetworkStateHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network/WifiWriteHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/schedules/tasks/WifiInfoUpload.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/output/contants/VoiceDef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_clean_system/conf/both/voice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="153" column="41" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_msgs/msg/RobotInfo.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_msgs/msg/IoSensor.msg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_msgs/msg/Velocity.msg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_msgs/msg/Voronoi.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_msgs/srv/BaseDriverCmd.srv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_msgs/msg/BaseState.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/monitor/MonitorModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/conf/conf_tina35/log.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

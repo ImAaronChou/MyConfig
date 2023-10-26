@@ -1,0 +1,74 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/workspace/narwal/j1">
+          <value>
+            <RecentProjectMetaInfo frameTitle="j1 – voice.yaml" projectWorkspaceId="2LlSHuhc6cxZi8fPJasoAOJVziE">
+              <option name="activationTimestamp" value="1676538863112" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-223.7571.171" />
+              <option name="buildTimestamp" value="1669653777827" />
+              <frame x="72" y="27" width="1848" height="1053" extendedState="6" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1676538086886" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/narwal/p2/workspace/src">
+          <value>
+            <RecentProjectMetaInfo frameTitle="src – StartCleanHandler.cpp" opened="true" projectWorkspaceId="2LVFDppFUxXOI3auvXUXTrSktwq">
+              <option name="activationTimestamp" value="1678947763434" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-223.7571.171" />
+              <option name="buildTimestamp" value="1669653766535" />
+              <frame x="72" y="27" width="1848" height="1053" extendedState="6" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1678938710440" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/narwal/j2/workspace">
+          <value>
+            <RecentProjectMetaInfo frameTitle="workspace – clean_system.yaml" opened="true" projectWorkspaceId="2N2aYWPqjYRd8HXiHe8ALGRinIS">
+              <option name="activationTimestamp" value="1681974814928" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-231.8109.174" />
+              <option name="buildTimestamp" value="1679998509482" />
+              <frame x="72" y="27" width="1848" height="1053" extendedState="6" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1681963040632" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/workspace/src">
+          <value>
+            <RecentProjectMetaInfo frameTitle="src – CleanPlanModule.cpp" opened="true" projectWorkspaceId="2LVFDppFUxXOI3auvXUXTrSktwq">
+              <option name="activationTimestamp" value="1683345025980" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-231.8109.174" />
+              <option name="buildTimestamp" value="1679998556007" />
+              <frame x="72" y="27" width="1848" height="1053" extendedState="6" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1683342900272" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/narwal/ip1220/workspace/src">
+          <value>
+            <RecentProjectMetaInfo frameTitle="src – CleanMissionModule.cpp" opened="true" projectWorkspaceId="2LVFDppFUxXOI3auvXUXTrSktwq">
+              <option name="activationTimestamp" value="1683710250893" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-231.8109.174" />
+              <option name="buildTimestamp" value="1679998537381" />
+              <frame x="72" y="27" width="1848" height="1053" extendedState="6" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1683345229963" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/workspace/narwal/ip1220/workspace/src" />
+  </component>
+</application>

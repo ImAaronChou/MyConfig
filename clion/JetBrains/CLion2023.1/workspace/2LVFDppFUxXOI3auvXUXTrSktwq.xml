@@ -1,0 +1,1253 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="src" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:IP1222_feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bugfix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:chaoning" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feat" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fhc" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:jianqiang" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:lutao" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:remotes" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:remotes" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:style" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:tmp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:typo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/StartEasyCleanHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanRatioHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="55" column="89" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/octopus/proto/mqtt/srv/clean/SetFanLevel.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/application/parameter/ParameterProtoConvertUtils.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="239" column="97" selection-start-line="239" selection-start-column="97" selection-end-line="239" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/CleanPlanModule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="392" selection-start-line="392" selection-end-line="392" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/test/application/communicator/mqtt/MqttClientTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="305" selection-start-line="305" selection-end-line="305" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planning/src/planning/stages/navigation/performer/CleanModuleControlPerformer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/CleanMissionModule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="129" column="3" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/conf/application_pc.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="CMakeLists.txt">
+      <summary usageCount="5" lastUsed="1677747882401" />
+    </fileType>
+    <fileType name="DIFF">
+      <summary usageCount="15" lastUsed="1683279390256" />
+    </fileType>
+    <fileType name="ObjectiveC">
+      <summary usageCount="1581" lastUsed="1683704412381" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="35" lastUsed="1682583585794" />
+    </fileType>
+    <fileType name="protobuf">
+      <summary usageCount="281" lastUsed="1683709574326" />
+    </fileType>
+    <fileType name="textmate">
+      <summary usageCount="73" lastUsed="1683367262305" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is_open()</find>
+      <find>ifd</find>
+      <find>DynamicGenerateAreaCleanDeciderTest</find>
+      <find>Frien</find>
+      <find>RobotTrajectoryTest</find>
+      <find>MqttClientTest</find>
+      <find>GenerateAreaCleanModeTest</find>
+      <find>ROBOKIT_FRIEND_TEST</find>
+      <find>DynamicGenerateCarpetCleanDeciderTest</find>
+      <find>has_</find>
+      <find>\.has_.*()</find>
+      <find>Load(</find>
+      <find>side_scan_offset</find>
+      <find>left_side_brush</find>
+      <find>target_param_</find>
+      <find>MopUpliftAction</find>
+      <find>mop_uplift</find>
+      <find>3rd_dep</find>
+      <find>assis</find>
+      <find>cleanmodulecontro</find>
+      <find>cleansetting</find>
+      <find>ModuleCtrlReady</find>
+      <find>RoomMapComponent</find>
+      <find>MissionCleanMode_Name</find>
+      <find>DeviceCleanMode</find>
+      <find>CleanMode</find>
+      <find>kCleanModeSweep</find>
+      <find>kCleanModeSweepMopSync</find>
+      <find>DeviceCleanMO</find>
+      <find>MissionCleanMOde</find>
+      <find>CleanOptions.pb.</find>
+      <find>GetRoomOverlap</find>
+      <find>CleanOption</find>
+      <find>registerdelay</find>
+      <find>updateroomfinishedtimes</find>
+      <find>UpdateRoomFinishedTimes</find>
+      <find>register delayed service</find>
+      <find>ResetPlan</find>
+      <find>ResetPlanning</find>
+      <find>roomclean</find>
+      <find>CleanModuleCtrlInfo</find>
+      <find>ReqCleanParam</find>
+      <find>power</find>
+      <find>warning_switch</find>
+      <find>record_area_interval</find>
+      <find>PlanAreaOption</find>
+      <find>TableDesc</find>
+      <find>RegisterEvent</find>
+      <find>TableEventType::kInsert</find>
+      <find>kInsert</find>
+      <find>TableEventData</find>
+      <find>SaveTable</find>
+      <find>Sync</find>
+      <find>GetFieldValueNumeric</find>
+      <find>shown_in_station</find>
+      <find>for</find>
+      <find>kErrDepartureWaitingCollisionFreeTimeout</find>
+      <find>con</find>
+      <find>http</find>
+      <find>content_type_</find>
+      <find>reportsu</find>
+      <find>cpr</find>
+      <find>ClientPoco</find>
+      <find>content</find>
+      <find>MqttCorrelationData</find>
+      <find>repeated</find>
+      <find>TrimUuid</find>
+      <find>overlap</find>
+      <find>move_speed_carpet</find>
+      <find>ReqStartCleanByPlanID</find>
+      <find>ReqCleanByPlanIDSRV</find>
+      <find>CleanTaskParam</find>
+      <find>CleanParamConfig</find>
+      <find>mission</find>
+      <find>unprocess</find>
+      <find>clean_plan_module</find>
+      <find>GetModule&lt;parameter::CleanPlanModule&gt;</find>
+      <find>protobufservicehandler</find>
+      <find>AssignCleanPlan</find>
+      <find>ParameterProtoConvertUtils</find>
+      <find>bool .*AssignCleanPlan</find>
+      <find>CleanPlan</find>
+      <find>parameter\:\:CleanPlan</find>
+      <find>is_custom_clean</find>
+      <find>is_custom_clean_order</find>
+      <find>kCleanModeOctopusMap</find>
+      <find>GetCleanMissionParam</find>
+      <find>GenerateRoomCleanStage</find>
+      <find>GenerateStage</find>
+      <find>service::RoomClean</find>
+      <find>MissionCleanMode</find>
+      <find>sweep_mop_sync_area_option</find>
+      <find>CreateCleanMissionParam</find>
+      <find>CleanLevelType</find>
+      <find>MissionTriggerType</find>
+      <find>RobotTaskStatus</find>
+      <find>ConvertDefaultCleanMode</find>
+      <find>CleanTaskInfo</find>
+      <find>easy_clean_plan</find>
+      <find>GetEasyCleanMode</find>
+      <find>clean_mode</find>
+      <find>CleanTaskInitUtils</find>
+      <find>RobotMissionCleanMode</find>
+      <find>RoomCleanStage</find>
+      <find>clean_record_map</find>
+      <find>GetNextRoomCleanId</find>
+      <find>carpetType</find>
+      <find>CarpetTracingEvent</find>
+      <find>mop_hu</find>
+      <find>moph</find>
+      <find>MOP_HUMIDITY_LEVEL_UNSPECIFIED</find>
+      <find>mop_strength</find>
+      <find>fan_ration</find>
+      <find>SWEEP_FAN_LEVEL_MUTE</find>
+      <find>fan_ratio</find>
+      <find>CleanModeMap</find>
+      <find>INT_MIN_SENTINEL_DO_NOT_USE</find>
+      <find>assigncleanplan</find>
+      <find>RoomClean</find>
+      <find>AssignSweepAreaOption</find>
+      <find>CleanMissionModule</find>
+      <find>sweepareaoption</find>
+      <find>map_version</find>
+      <find>clean_task_id</find>
+      <find>CarpetCleanEvent</find>
+      <find>ScheduleParam</find>
+      <find>CleanScheduleParam</find>
+      <find>one_shot</find>
+      <find>SetLogSeverity</find>
+      <find>AssignAreaOption</find>
+      <find>CleanAreaOption</find>
+      <find>CLEAN_ZONE_TYPE_WHOLE_HOUSE</find>
+      <find>import &quot;a</find>
+      <find>DeviceInfoConfigSingleton</find>
+      <find>order</find>
+      <find>room</find>
+      <find>GetRoomOrder</find>
+      <find>certi</find>
+      <find>enable_server_cert_auth</find>
+      <find>ssl_options</find>
+      <find>ssl_options_builder</find>
+      <find>MissionCleanModeSweepMopSync</find>
+      <find>optional</find>
+      <find>topic_utl</find>
+      <find>mqtt_option</find>
+      <find>ca_path</find>
+      <find>get_trust_store</find>
+      <find>trustStore</find>
+      <find>trustStore_</find>
+      <find>clean_task_info.clean_mission_param =</find>
+      <find>caPath_</find>
+      <find>struct_version</find>
+      <find>CApath</find>
+      <find>log</find>
+      <find>getclean</find>
+      <find>geteasyclean</find>
+      <find>CreateClean</find>
+      <find>createcleanmission</find>
+      <find>clean_mission_param</find>
+      <find>.clean_mission_param =</find>
+      <find>G</find>
+      <find>set</find>
+      <find>setcleanmission</find>
+      <find>InitStatusInfo</find>
+      <find>SetCleanMissionParam</find>
+      <find>ResetEasyPlan</find>
+      <find>getcleanmission</find>
+      <find>TaskSchedulerComponent</find>
+      <find>CleanPlanMo</find>
+      <find>CleanPlanModule</find>
+      <find>ResetCleanPlans</find>
+      <find>Truncate</find>
+      <find>CleanPlanChangeType::kAdd</find>
+      <find>AddCleanPlan</find>
+      <find>CleanPlanChangeType::kReset</find>
+      <find>App::GetInstance</find>
+      <find>metadata</find>
+      <find>addschedule</find>
+      <find>addschedulepa</find>
+      <find>ScheduleModuleErrorCode</find>
+      <find>TaskSchedule</find>
+      <find>Crontab</find>
+      <find>TaskScheduleList</find>
+      <find>CronConverter</find>
+      <find>kEasyPlanID</find>
+      <find>CLEAN_MODE_SWEEP</find>
+      <find>serialize_defaults</find>
+      <find>json</find>
+      <find>nloh</find>
+      <find>nlohm</find>
+      <find>nlohmann</find>
+      <find>parse</find>
+      <find>convert</find>
+      <find>friend</find>
+      <find>SetScenarioTerminateReason</find>
+      <find>terminate_reason</find>
+      <find>TASK_RESULT_SHUTDOWN_FORCE_END</find>
+      <find>robot_info::TaskTerminateReason::kPauseTooLongForceEnd</find>
+      <find>HasTaskScheduleChangeEvent</find>
+      <find>AddSchedule</find>
+      <find>CleanPlanChangedEvent</find>
+      <find>SyncCleanPlanToServer</find>
+      <find>LOCK</find>
+      <find>kPauseTooLongForceEnd</find>
+      <find>kShutdownForceEnd</find>
+      <find>shutdown</find>
+      <find>ScenarioErrorCode</find>
+      <find>clean_mission_</find>
+      <find>-&gt;GetErrorCode</find>
+      <find>GetCurrentErrorCode</find>
+      <find>kNormalEndWithReplenishMapFail</find>
+      <find>report</find>
+      <find>trigger_</find>
+      <find>kUserForceEndOnApp</find>
+      <find>kUserForceEndOnStation</find>
+      <find>Recall</find>
+      <find>InnerRecall</find>
+      <find>EndCleanTracingEvent</find>
+      <find>kRecallEnd</find>
+      <find>RobotEndCleanEvent</find>
+      <find>RoomMapC</find>
+      <find>BeginCleanTracingEvent</find>
+      <find>RecallInScenario</find>
+      <find>Recall(</find>
+      <find>ActionContext</find>
+      <find>cleanTaskID</find>
+      <find>SetCleanTaskID</find>
+      <find>TaskTerminateReason</find>
+      <find>RobotBeginCleanEvent</find>
+      <find>scenario::ScenarioComponen</find>
+      <find>restored_task_type</find>
+      <find>.restored_task_type</find>
+      <find>RestoredTaskType</find>
+      <find>whole</find>
+      <find>robot_info::TriggerType</find>
+      <find>kTriggerTypeApp</find>
+      <find>clean task run failed</find>
+      <find>不处理断点续扫请求</find>
+      <find>任务中, 不处理断点续扫请求</find>
+      <find>enable_planning_debug</find>
+      <find>EnableWorkflowLog</find>
+      <find>EnableWorkflowLogPublishedHandler</find>
+      <find>ShadowDataTable</find>
+      <find>shadow</find>
+      <find>/planning/view</find>
+      <find>PlanningView</find>
+      <find>message GridPoint</find>
+      <find>DebugSwitch</find>
+      <find>kCleanZoneTypeGlobalMap</find>
+      <find>IsWholeHouseClean</find>
+      <find>CleanDevice</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/common/</dir>
+      <dir>$PROJECT_DIR$/planning/tools/decide_behavior</dir>
+      <dir>$PROJECT_DIR$/common/src/common/robot</dir>
+      <dir>$PROJECT_DIR$/hal</dir>
+      <dir>$PROJECT_DIR$/common/src/common/robot/proto</dir>
+      <dir>$PROJECT_DIR$/common/src/common/ut</dir>
+      <dir>$PROJECT_DIR$/common/conf/j3se</dir>
+      <dir>$PROJECT_DIR$/common/test/common/robot</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/clean_module</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages/room_clean/fsm</dir>
+      <dir>$PROJECT_DIR$/application/src/application/robot_info/data</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/area_clean</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/state_maintainer</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/telecontrol_clean</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/planning/service</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/planning/srv</dir>
+      <dir>$PROJECT_DIR$/application/conf/</dir>
+      <dir>$PROJECT_DIR$/application/conf/robot_info</dir>
+      <dir>$PROJECT_DIR$/application/conf/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application</dir>
+      <dir>$PROJECT_DIR$/common/conf/j4</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/http/src/platform/http</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/http/src/platform/http/impl</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/mqtt</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/develop</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/application/service</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/application/srv</dir>
+      <dir>$PROJECT_DIR$/application/src/application/deciders/SecondClean</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages</dir>
+      <dir>$PROJECT_DIR$/planning</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/msg/status</dir>
+      <dir>$PROJECT_DIR$/application</dir>
+      <dir>$PROJECT_DIR$/application/test/application/robot_info</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages/room_clean</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/room_clean</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/planning_map</dir>
+      <dir>$PROJECT_DIR$/application/conf/j3se/parameter</dir>
+      <dir>$PROJECT_DIR$/planning/</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/clean</dir>
+      <dir>$PROJECT_DIR$/application/conf</dir>
+      <dir>$PROJECT_DIR$/../devel/include/octopus/proto/core</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/schedule</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/common/src/robokit_common/log</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/communicator</dir>
+      <dir>$PROJECT_DIR$/mapping/src/mapping/sdk/room_map</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp/src/test/unit</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt/client</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd</dir>
+      <dir>$PROJECT_DIR$/../devel/include/application/proto/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/include/mqtt</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp/src/src</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp/</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp/src/src/mqtt</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/include</dir>
+      <dir>$PROJECT_DIR$/application/conf/communicator</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-c</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/deciders</dir>
+      <dir>$PROJECT_DIR$/application/src/application/parameter/table</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_publishers</dir>
+      <dir>$PROJECT_DIR$/application/src/application/</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/schedule</dir>
+      <dir>$PROJECT_DIR$/application/</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/local/include/google/protobuf/util</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/http</dir>
+      <dir>$PROJECT_DIR$/robokit_telemetry/robokit_robata/src/robata/server/service</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/include/nlohmann</dir>
+      <dir>$PROJECT_DIR$/application/src/application/report</dir>
+      <dir>$PROJECT_DIR$/application/src/application/schedule</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/ros</dir>
+      <dir>$PROJECT_DIR$/application/src/application/health_management</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/scenario</dir>
+      <dir>$PROJECT_DIR$/../devel/include/application/proto/scenario</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/context</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/tracing</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/trace_event</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean</dir>
+      <dir>$PROJECT_DIR$/../devel/include/octopus/proto/mqtt/srv</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers</dir>
+      <dir>$PROJECT_DIR$/common/conf</dir>
+      <dir>$PROJECT_DIR$/application/src/application/aggregation</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/developer</dir>
+      <dir>$PROJECT_DIR$/application/src/application/workflow_log</dir>
+      <dir>$PROJECT_DIR$/application/test/application/communicator/mqtt</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/core</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/common</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt</dir>
+      <dir>$PROJECT_DIR$/application/src/application/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/parameter/modules</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/../devel/include/application/proto/scenario/ScenarioType.pb.h" />
+      <option value="$PROJECT_DIR$/application/src/application/parameter/CleanTaskConvertUtils.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/schedule/CronConverter.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/context/ScenarioContext.h" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/Scenario.h" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/ScenarioComponent.h" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/ScenarioComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/ScenarioManager.h" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/ScenarioManager.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/WholeHouseCleanScenario.h" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/trace_event/BeginCleanTracingEvent.cpp" />
+      <option value="$PROJECT_DIR$/octopus/proto/core/CleanOption.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/ScenarioContext.h" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/RecallHandler.h" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/UpdateCurPlanHandler.h" />
+      <option value="$PROJECT_DIR$/protocol/src/protocol/tracing/UpdateTaskParamEvent.h" />
+      <option value="$PROJECT_DIR$/protocol/src/protocol/tracing/RobotEndCleanEvent.cpp" />
+      <option value="$PROJECT_DIR$/protocol/src/protocol/tracing/RobotBeginCleanEvent.cpp" />
+      <option value="$PROJECT_DIR$/protocol/src/protocol/tracing/UpdateTaskParamEvent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/RobotRebootHandler.h" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/WholeHouseCleanScenario.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/trace_event/EndCleanTracingEvent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/UpdateCurPlanHandler.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/common/CleanSettingController.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/trace_event/EndCleanTracingEvent.h" />
+      <option value="$PROJECT_DIR$/../devel/include/octopus/proto/mqtt/srv/ServiceResult.pb.h" />
+      <option value="$PROJECT_DIR$/protocol/src/protocol/upgrader/srv/ActiveUpgradeSRV.srv" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/RobotUpgradeHandler.h" />
+      <option value="$PROJECT_DIR$/octopus/proto/mqtt/srv/developer/EnableDebugVoice.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/FileUploadHandler.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/workflow_log/WorkflowLogComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/aggregation/AggregationComponent.h" />
+      <option value="$PROJECT_DIR$/octopus/proto/core/device_shadow/DebugVoiceSwitch.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/EnableDebugVoiceHandler.h" />
+      <option value="$PROJECT_DIR$/application/test/application/communicator/mqtt/APITest.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.h" />
+      <option value="$PROJECT_DIR$/application/conf/communicator/MqttClientOption.conf" />
+      <option value="$PROJECT_DIR$/octopus/proto/core/ShadowDataTable.proto" />
+      <option value="$PROJECT_DIR$/octopus/proto/mqtt/srv/clean/SetFanRatio.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.cpp" />
+      <option value="$PROJECT_DIR$/octopus/proto/mqtt/srv/clean/SetFanLevel.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanRatioHandler.h" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanRatioHandler.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/aggregation/AggregationComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanLevelHandler.h" />
+      <option value="$PROJECT_DIR$/application/src/application/parameter/modules/CleanMissionModule.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanLevelHandler.cpp" />
+      <option value="$PROJECT_DIR$/application/conf/application_pc.conf" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/parameter/modules/CleanMissionModule.h" />
+      <option value="$PROJECT_DIR$/application/test/application/communicator/mqtt/MqttClientTest.cpp" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="CMake">
+      <summary usageCount="5" lastUsage="1677747882401" />
+    </language>
+    <language id="ObjectiveC">
+      <summary usageCount="1581" lastUsage="1683704412381" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="35" lastUsage="1682583585794" />
+    </language>
+    <language id="protobuf">
+      <summary usageCount="281" lastUsage="1683709574326" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="73" lastUsage="1683367262305" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto/mqtt}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto/mqtt}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto/mqtt/srv}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto/mqtt}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto/mqtt/srv}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/ip1220/workspace/src/octopus/proto/mqtt/srv/clean}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Google Test.RobotTypeTest.OneTest" executorId="Run" />
+    </history>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",QUALIFIED_NAMES" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RobotTypeTest_OneTest - 2023.02.09 at 21h 39m 12s.xml">
+      <configuration name="RobotTypeTest.OneTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="651899000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16260822" />
+      <window_info id="Commit" order="1" weight="0.17721862" />
+      <window_info id="Structure" order="2" weight="0.17559524" />
+      <window_info anchor="bottom" id="Find" show_stripe_button="false" weight="0.33021653" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.25147638" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="CMake" order="5" visible="true" weight="0.15600394" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.25147638" />
+      <window_info anchor="right" id="Meet New UI" side_tool="true" weight="0.32981604" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32981604" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25" />
+      <window_info anchor="right" id="Web Inspector" order="4" weight="0.25" />
+      <unified_weights bottom="0.15600394" left="0.16260822" right="0.32981604" />
+    </layoutV2>
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15557359" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3390748" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33021653" />
+      <window_info anchor="bottom" id="Run" order="2" show_stripe_button="false" weight="0.33021653" />
+      <window_info anchor="bottom" id="Debug" order="3" show_stripe_button="false" weight="0.4000984" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="CMake" order="6" visible="true" weight="0.32234251" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33021653" />
+      <window_info anchor="bottom" id="Services" order="11" />
+      <window_info anchor="bottom" id="Vcpkg" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32981604" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25027055" />
+      <window_info anchor="right" id="Translation.Wordbook" order="2" side_tool="true" />
+      <window_info anchor="right" id="make" order="3" show_stripe_button="false" side_tool="true" />
+      <unified_weights bottom="0.32234251" left="0.15557359" right="0.32981604" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>CMake</value>
+      <value>Meet New UI</value>
+      <value>Find</value>
+      <value>Commit</value>
+      <value>Debug</value>
+      <value>Database</value>
+      <value>Problems View</value>
+      <value>Structure</value>
+      <value>Version Control</value>
+      <value>Notifications</value>
+      <value>Run</value>
+      <value>Messages</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="278" key="#Notifications" timestamp="1676875163992">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="629" y="278" key="#Notifications/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1676875163992" />
+    <state x="611" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677738865474">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="611" y="327" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1677738865474" />
+    <state x="802" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1677740455750">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="802" y="269" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1677740455750" />
+    <state x="594" y="296" width="804" height="521" key="AttachToProcessDialog" timestamp="1682513398077">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="594" y="296" width="804" height="521" key="AttachToProcessDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682513398077" />
+    <state x="535" y="267" key="FileChooserDialogImpl" timestamp="1680752287209">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2401" y="246" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676382019631" />
+    <state x="535" y="267" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1680752287209" />
+    <state x="770" y="441" key="Github.CreateGistDialog" timestamp="1677061798688">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="770" y="441" key="Github.CreateGistDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1677061798688" />
+    <state width="1782" height="223" key="GridCell.Tab.0.bottom" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676365982647" />
+    <state width="1782" height="223" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.0.center" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676365982647" />
+    <state width="1782" height="223" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.0.left" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676365982647" />
+    <state width="1782" height="223" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.0.right" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676365982647" />
+    <state width="1782" height="223" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.1.bottom" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1782" height="223" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.1.center" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1782" height="223" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.1.left" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1782" height="223" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state width="1782" height="223" key="GridCell.Tab.1.right" timestamp="1682518729874">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1782" height="223" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1682518729874" />
+    <state x="584" y="284" key="IDE.errors.dialog" timestamp="1676875142759">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="584" y="284" key="IDE.errors.dialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1676875142759" />
+    <state x="379" y="187" width="1426" height="737" key="SettingsEditor" timestamp="1683296921102">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2323" y="172" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676369666922" />
+    <state x="379" y="187" width="1426" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1683296921102" />
+    <state x="570" y="339" width="841" height="435" key="com.jetbrains.cidr.cpp.cmake.actions.CMakeAddFileToProjectDialog" timestamp="1675959256224">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="570" y="339" width="841" height="435" key="com.jetbrains.cidr.cpp.cmake.actions.CMakeAddFileToProjectDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1675959256224" />
+    <state x="2440" y="55" width="721" height="1008" key="dock-window-1" timestamp="1678719226146">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2440" y="55" width="721" height="1008" key="dock-window-1/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1678719226146" />
+    <state x="2453" y="0" width="360" height="897" maximized="true" key="dock-window-2" timestamp="1678331988664">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2453" y="0" width="360" height="897" maximized="true" key="dock-window-2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1678331988664" />
+    <state x="431" y="105" width="1302" height="829" key="find.popup" timestamp="1683513955950">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="571" y="154" width="1064" height="851" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676442006916" />
+    <state x="431" y="105" width="1302" height="829" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1683513955950" />
+    <state x="660" y="252" width="672" height="685" key="run.anything.popup" timestamp="1681826682339">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" width="672" height="685" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1681826682339" />
+    <state x="659" y="259" width="781" height="523" key="search.everywhere.popup" timestamp="1683709574321">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2530" y="238" width="714" height="704" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1676442118236" />
+    <state x="659" y="259" width="781" height="523" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1683709574321" />
+    <state x="721" y="468" width="540" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1680165238118">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="721" y="468" width="540" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1680165238118" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/GetCurPlanHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/FileUploadHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/GetCleanPlansHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/protocol/DebugSwitchSRVResponse.h" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/workflow_log/WorkflowLogComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/DeviceShadowProtocol.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/device_shadow/BatteryFailure.proto">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/device_shadow/ScheduledCleaningTask.proto" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/EnableDebugVoiceHandler.h" />
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/device_shadow/DebugVoiceSwitch.proto" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/protocol/PlanningView.h" />
+    <entry file="file://$PROJECT_DIR$/planning/src/planning/local_view/GlobalView.cpp" />
+    <entry file="file://$PROJECT_DIR$/application/test/application/communicator/mqtt/APITest.cpp" />
+    <entry file="file://$PROJECT_DIR$/octopus/proto/mqtt/msg/map/MapBaseType.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planning/src/planning/common/Constants.h" />
+    <entry file="file://$PROJECT_DIR$/application/conf/communicator/MqttClientOption.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planning/src/planning/local_view/GlobalView.h" />
+    <entry file="file://$PROJECT_DIR$/planning/src/planning/debug_tools/DebugToolsComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1956">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/ShadowDataTable.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/GetMapHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/CleanOption.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planning/src/planning/debug_tools/DebugToolsComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/core/CleanTask.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/aggregation/matcher/LedMatcher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/aggregation/matcher/LedMatcher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/output/controller/led/LedController.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/output/controller/led/LedController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/output/OutputComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/output/OutputComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/application/proto/StateCode.pb.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/aggregation/AggregationComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/aggregation/AggregationComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="298" column="16" selection-start-line="298" selection-start-column="16" selection-end-line="298" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="190" column="42" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanLevelHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/CleanMissionModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="513" selection-start-line="513" selection-end-line="513" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/application/proto/parameter/CleanPlan.pb.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="1441" column="33" selection-start-line="1441" selection-start-column="33" selection-end-line="1441" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/ParameterProtoConvertUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="467" column="27" selection-start-line="467" selection-start-column="27" selection-end-line="467" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/ParameterProtoConvertUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="239" column="97" selection-start-line="239" selection-start-column="97" selection-end-line="239" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/conf/application_pc.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/CleanPlanModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/CleanPlanModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="305" selection-start-line="305" selection-end-line="305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planning/src/planning/stages/navigation/performer/CleanModuleControlPerformer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/CleanMissionModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="129" column="3" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/test/application/communicator/mqtt/MqttClientTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanLevelHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="72" column="81" selection-start-line="72" selection-start-column="81" selection-end-line="72" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/StartEasyCleanHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetFanRatioHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="55" column="89" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/mqtt/srv/clean/SetFanLevel.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>default</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41847825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

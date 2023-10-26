@@ -1,0 +1,20 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/workspace/narwal/1001/workspace/src" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/1221/workspace/src" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1220/workspace/src" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/j1" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/j1/pita_clean_system" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/j1/pita_communicator" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/j2/workspace" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/workspace/src" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/ip1221/workspace_1001/src" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/j1" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/j2" value="true" />
+        <entry key="$USER_HOME$/workspace/narwal/p2/workspace/src" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

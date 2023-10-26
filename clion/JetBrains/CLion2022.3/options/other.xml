@@ -1,0 +1,128 @@
+<application>
+  <component name="CppNewDialogSettings">
+    <option name="addNewFilesToProject" value="false" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "InstalledPluginsSearchHistory": "m\ne\nea\neas\neasy",
+    "LayoutCode.optimizeImports": "false",
+    "LayoutCode.processChangedText": "false",
+    "LayoutCode.rearrangeEntriesC/C++": "false",
+    "LayoutCode.rearrangeEntriesCMake": "false",
+    "LayoutCode.rearrangeEntriesShell Script": "false",
+    "LayoutCode.rearrangeEntriesprotobuf": "false",
+    "LayoutCode.rearrangeEntriestextmate": "false",
+    "MarketplacePluginsSearchHistory": "easymo\neasy\nm\ngtest\ng",
+    "MemberChooser.showClasses": "true",
+    "NextRunPlatformUpdateBuild": "CL-223.8836.42",
+    "NextRunPlatformUpdateVersion": "2022.3.3",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "ProjectStructure.SecondLevelElements": "0.41847825",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.se.text.search": "true",
+    "SHFMT.PATH": "/home/aaron/.local/share/JetBrains/CLion2022.3/Shell Script/shfmt",
+    "SettingsSearchHistory": "undo\naction\nformat code",
+    "Vcs.Log.Text.Filter.History": "J3_product_develop",
+    "appcds.runOnSecondStart": "CL-223.7571.171-f6b2b96be903d0d8c38719fb4c0678184af0532e357612b1c4ca85e8344159c3",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "bundled.plugins.list.saved.version": "CL-223.8836.42",
+    "clion.initialConfigPerformed": "true",
+    "cn.yiiguxing.plugin.translate.version": "3.5.5",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.0": "300",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.1": "800",
+    "evlsprt3.223": "25",
+    "file.gist.reindex.count": "787",
+    "fileTypeChangedCounter": "31",
+    "find.popup.splitter": "0.64688426",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.cn.yiiguxing.plugin.translate.tooltip.new.translation.engines.microsoft.deepl": "1",
+    "got.it.tooltip.cn.yiiguxing.plugin.translate.tooltip.new.translation.engines.openai": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
+    "gotit.previous.run": "CL-223.7571.171",
+    "ideavim.statistics.timestamp": "1698312687799",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/aaron/workspace/narwal/1001/workspace/src/CMakeLists.txt",
+    "previousColorScheme": "_@user_Darcula",
+    "registry.to.advanced.settings.migration.build": "CL-223.7571.171",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.7.4",
+    "vcs.branch.view.splitter.proportion": "0.2989865",
+    "vcs.history.diff.splitter.proportion": "0.3808204",
+    "vcs.log.changes.splitter.proportion": "0.5855513"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/aaron/workspace/narwal/1001/workspace/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/1221/workspace/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/ip1221/workspace/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/ip1221/workspace_1001/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/ip1221/workspace_1001/build",
+      "/home/aaron/workspace/narwal/ip1221/workspace_1001/src/application/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/ip1221/j2/workspace",
+      "/home/aaron/workspace/narwal/ip1221/j1",
+      "/home/aaron/workspace/narwal/ip1221/j1/pita_clean_system",
+      "/home/aaron/workspace/narwal/ip1221/j1/pita_communicator",
+      "/home/aaron/workspace/narwal/ip1221/workspace/src/robokit_3rd/build/paho-mqtt-cpp",
+      "/home/aaron/workspace/narwal/ip1221/workspace/src/robokit_3rd/build/paho-mqtt-c",
+      "/home/aaron/workspace/narwal/ip1221/workspace/src/robokit_telemetry",
+      "/home/aaron/workspace/narwal/ip1221/workspace/src/robokit_telemetry/robokit_robata",
+      "/home/aaron/workspace/narwal/j2/workspace/build",
+      "/home/aaron/workspace/narwal/j2/workspace/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/ip1220/workspace/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/p2/workspace/src/CMakeLists.txt",
+      "/home/aaron/workspace/narwal/j2/workspace",
+      "/home/aaron/workspace/narwal/j2",
+      "/home/aaron/workspace/narwal/j1",
+      "/home/aaron/workspace/narwal/p2/workspace/src/application"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;IntroduceVariable&quot;: 1692154440221,
+    &quot;LiveTemplates&quot;: 1697620643721,
+    &quot;CtrlW&quot;: 1697967535292,
+    &quot;SearchEverywhere&quot;: 1685081898177,
+    &quot;QuickSwitchScheme&quot;: 1691652386984,
+    &quot;GoToClass&quot;: 1695459631304,
+    &quot;ShowUsages&quot;: 1697879639575,
+    &quot;QuickFix&quot;: 1698130567649,
+    &quot;VcsQuickList&quot;: 1688717699484,
+    &quot;GoToAction&quot;: 1696997208412,
+    &quot;find_usages&quot;: 1691376476738,
+    &quot;SpeedSearch&quot;: 1676444096849,
+    &quot;Rename&quot;: 1683822837015,
+    &quot;ParameterInfo&quot;: 1693282737082,
+    &quot;ClipboardStack&quot;: 1692844436219,
+    &quot;EvaluateExpression&quot;: 1697685556410,
+    &quot;RecentFiles&quot;: 1691464513265,
+    &quot;NonSuspendingBreakpoints&quot;: 1696922365305,
+    &quot;SurroundWith&quot;: 1695028230102,
+    &quot;local_history&quot;: 1697515105189,
+    &quot;FileStructurePopup&quot;: 1698311754660,
+    &quot;SelectIn&quot;: 1697181116904,
+    &quot;CompleteStatement&quot;: 1692759697570,
+    &quot;CtrlD&quot;: 1691746475618,
+    &quot;OverrideImplementMethods&quot;: 1696835572321,
+    &quot;QuickDefinition&quot;: 1695303975599
+  }
+}</component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="src-history" project-path="$USER_HOME$/workspace/narwal/ip1221/workspace/src" last-access-time="1691737671329" />
+    </command-history-files>
+  </component>
+</application>

@@ -1,0 +1,315 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="j2" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/ResponseParser.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/service/handlers/PitaServiceHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/service/handlers/PitaServiceHandler.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/controller/core/command/commands/ServiceCommandCreator.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/pita_driver/src/pita/driver/modules/monitor/MonitorModule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
+              <folding>
+                <element signature="e#4710#4976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/lib/LowPowerModeMonitor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/MonitorModule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/lib/LowPowerModeMonitor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/HttpTokenHandler.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/UploadFileService.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="ObjectiveC">
+      <summary usageCount="22" lastUsed="1677666328774" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>token</find>
+      <find>::Logging</find>
+      <find>updateparam</find>
+      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Recv Command:</find>
+      <find>Recv Srv DriverCommand</find>
+      <find>PitaServicesHandler</find>
+      <find>PitaComm</find>
+      <find>PitaCommand</find>
+      <find>SHUTDOWN_FORCE_END</find>
+      <find>Recv ShutDown CMD</find>
+      <find>evt::ShutDownCmd</find>
+      <find>DriverCommandHandler</find>
+      <find>service::DriverCommand</find>
+      <find>vt::ShutDownCmd</find>
+      <find>ShutDownCmd</find>
+      <find>lo</find>
+      <find>TimeCnt</find>
+      <find>lowpowermodeconfig()</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services</dir>
+      <dir>$PROJECT_DIR$/workspace/src/pita_communicator</dir>
+      <dir>$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor</dir>
+      <dir>$PROJECT_DIR$/workspace/src/p</dir>
+      <dir>$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/service/handlers</dir>
+      <dir>$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/controller/core/command/commands</dir>
+      <dir>$PROJECT_DIR$/workspace/src/pita_driver/</dir>
+      <dir>$PROJECT_DIR$/workspace/src/pita_driver/src/pita/driver/modules/monitor</dir>
+      <dir>$PROJECT_DIR$/workspace/src/pita_driver</dir>
+      <dir>$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor</dir>
+      <dir>$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/lib</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/UploadFileService.cpp" />
+      <option value="$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/HttpTokenHandler.h" />
+      <option value="$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/HttpTokenHandler.cpp" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="ObjectiveC">
+      <summary usageCount="22" lastUsage="1677666328774" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13452000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25027055" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Services" order="9" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
+      <window_info anchor="right" id="make" order="2" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="784" y="308" width="424" height="491" key="FileChooserDialogImpl" timestamp="1677727275814">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="784" y="308" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1677727275814" />
+    <state x="337" y="217" width="1369" height="824" key="find.popup" timestamp="1677666573999">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="337" y="217" width="1369" height="824" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1677666573999" />
+    <state x="659" y="259" width="672" height="686" key="search.everywhere.popup" timestamp="1677665958064">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="686" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1677665958064" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/HttpTokenHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/HttpTokenHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/UploadFileService.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/pita_communicator/src/pita/communicator/services/http_processor/ResponseParser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/service/handlers/PitaServiceHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/service/handlers/PitaServiceHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/controller/core/command/commands/ServiceCommandCreator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/pita_driver/src/pita/driver/modules/monitor/MonitorModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="e#4710#4976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/lib/LowPowerModeMonitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/MonitorModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/src/clean_system/src/pita/clean_system/modules/monitor/lib/LowPowerModeMonitor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

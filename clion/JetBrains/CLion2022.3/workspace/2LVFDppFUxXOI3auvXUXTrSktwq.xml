@@ -1,0 +1,1406 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/robokit_3rd/include/nlohmann/json.hpp" />
+              <entry key="line" value="8643" />
+            </attributes>
+            <option name="description" value="*/" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+            <option name="type" value="LETTER_H" />
+          </BookmarkState>
+        </option>
+        <option name="default" value="true" />
+        <option name="name" value="IdeaVim" />
+      </GroupState>
+      <GroupState>
+        <option name="name" value="src" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:IP1222_feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bugfix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:chaoning" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feat" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fhc" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:jianqiang" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:lutao" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:remotes" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:remotes" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:style" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:tmp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:typo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:feature_J3PRO-8516_add_upload_switch_to_j3s" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="402">
+                  <caret line="282" column="24" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="1149" selection-start-line="1149" selection-end-line="1149" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/octopus/proto/http/schedule/ScheduleReminder.proto">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/application/parameter/table/Table.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="273" column="42" selection-start-line="273" selection-start-column="42" selection-end-line="273" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/application/parameter/table/Table.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="247" column="73" selection-start-line="247" selection-start-column="73" selection-end-line="247" selection-end-column="73" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/planning/conf/Departure.conf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1496">
+                  <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/application/config/DeviceInfoConfig.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetConfigHandler.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetConfigHandler.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="226">
+                  <caret line="296" column="9" selection-start-line="296" selection-start-column="9" selection-end-line="296" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="CMakeLists.txt">
+      <summary usageCount="63" lastUsed="1698130562231" />
+    </fileType>
+    <fileType name="DIFF">
+      <summary usageCount="26" lastUsed="1697877793585" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="1" lastUsed="1684911635316" />
+    </fileType>
+    <fileType name="ObjectiveC">
+      <summary usageCount="3277" lastUsed="1698315842680" />
+    </fileType>
+    <fileType name="PATCH">
+      <summary usageCount="4" lastUsed="1687788145837" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="92" lastUsed="1698315636622" />
+    </fileType>
+    <fileType name="Shell Script">
+      <summary usageCount="3" lastUsed="1697798783334" />
+    </fileType>
+    <fileType name="WebPreview">
+      <summary usageCount="1" lastUsed="1698312977139" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="15" lastUsed="1693395391249" />
+    </fileType>
+    <fileType name="disassembly">
+      <summary usageCount="1" lastUsed="1687269378325" />
+    </fileType>
+    <fileType name="protobuf">
+      <summary usageCount="495" lastUsed="1698315842373" />
+    </fileType>
+    <fileType name="textmate">
+      <summary usageCount="329" lastUsed="1698315842614" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>client</find>
+      <find>CreateServiceClient</find>
+      <find>ctrl</find>
+      <find>GetLidarUV</find>
+      <find>LocalizationGetMapId</find>
+      <find>LocalizationGetMapIdService</find>
+      <find>LocalizationGetMapIdClient</find>
+      <find>localization_get_map_id_client_</find>
+      <find>QueryStationPose</find>
+      <find>IsNodeA</find>
+      <find>CheckNodesAlive</find>
+      <find>time</find>
+      <find>SteadyClock::Now</find>
+      <find>SyncExitLowPower</find>
+      <find>RobotEndCleanEvent</find>
+      <find>SetPowerPercent</find>
+      <find>BatteryHealth</find>
+      <find>soc =</find>
+      <find>RobotBattery.srv</find>
+      <find>soc</find>
+      <find>RobotZoneCleanEvent</find>
+      <find>RoomCleanTracingEvent</find>
+      <find>BuildMapEvent</find>
+      <find>BuildMapTracingEvent</find>
+      <find>publish</find>
+      <find>Init</find>
+      <find>Node</find>
+      <find>RosNode</find>
+      <find>hibernation</find>
+      <find>OnHibernate</find>
+      <find>hibernate</find>
+      <find>SetHibernateCallback</find>
+      <find>HibernationManager</find>
+      <find>nodiscard</find>
+      <find>ROBOKIT_GNUC_PREREQ</find>
+      <find>buttonevent.srv</find>
+      <find>RECALL_BUTTON_EVENT_ONE_CLICK</find>
+      <find>buttoneventsrv</find>
+      <find>触发关机后不下发速度</find>
+      <find>DOUBLE_CLICK</find>
+      <find>RECALL</find>
+      <find>RecvBtnEvtCb</find>
+      <find>/hal/sensor/button_event</find>
+      <find>RegisterCB</find>
+      <find>Initialize</find>
+      <find>InitRos</find>
+      <find>AddCommCb</find>
+      <find>Publish</find>
+      <find>btn_press_time_vec_</find>
+      <find>LONG_PRESS</find>
+      <find>BtnStatMachineHandle</find>
+      <find>BtnStatCb</find>
+      <find>ReportEvent</find>
+      <find>ButtonEventPublic</find>
+      <find>button</find>
+      <find>ButtonEventPublisher</find>
+      <find>/hal/control/chassis_velocity</find>
+      <find>ChassisVelocity</find>
+      <find>default_command_frequency</find>
+      <find>PlanningEnableHibernation</find>
+      <find>InitHibernationServices</find>
+      <find>OnEnableHibernation</find>
+      <find>chassi</find>
+      <find>control_plan_timer_</find>
+      <find>TickControlPlanOnce</find>
+      <find>Pause()</find>
+      <find>TickControlCommandOnce</find>
+      <find>planning/hibernation/enable</find>
+      <find>EnableHibernationS</find>
+      <find>EnableHibernation</find>
+      <find>power_health_main</find>
+      <find>CheckApplicationHeartBeatTimeout</find>
+      <find>control_command_timer_</find>
+      <find>TaskChangedCallback</find>
+      <find>RobotBrakeEnable</find>
+      <find>CtrlVelocityFollow</find>
+      <find>HibernationStatusServiceCallback</find>
+      <find>EnableHibernationServiceCallback</find>
+      <find>low_power_comp_cfg</find>
+      <find>time_to_enter_relax</find>
+      <find>BrakeControlBehavior</find>
+      <find>enable_wheel_brake_when_idle</find>
+      <find>Monitor</find>
+      <find>WheelBrakeMonitor</find>
+      <find>SyncContext</find>
+      <find>japan</find>
+      <find>kLanguageJapanese</find>
+      <find>debug_voice</find>
+      <find>DebugSwitch</find>
+      <find>CallService&lt;::protocol::service::DebugSwitch</find>
+      <find>enable_planning_debug</find>
+      <find>0x0202ffff</find>
+      <find>EnterStationAction</find>
+      <find>RecognizeStationActNode</find>
+      <find>DoRequest</find>
+      <find>InnerCall</find>
+      <find>SyncCall</find>
+      <find>InnerSyncCall</find>
+      <find>ProtobufRequest&lt;Service&gt;::AsyncCall</find>
+      <find>InnerAsyncCall</find>
+      <find>AsyncCall</find>
+      <find>max_connect_retry_interval_sec</find>
+      <find>CleanSettingController</find>
+      <find>work_time_before_clean</find>
+      <find>ButtonEventService</find>
+      <find>ButtonEvent</find>
+      <find>WithRetained</find>
+      <find>GetCurStage</find>
+      <find>Resume(</find>
+      <find>::Resume(</find>
+      <find>define unu</find>
+      <find>UNUSED_ATTR</find>
+      <find>static_cast&lt;void&gt;</find>
+      <find>pump_water</find>
+      <find>task_id</find>
+      <find>fixed_cleaned_area_since_last_wash_mop</find>
+      <find>UpdateCleanedAreaOnTrajectory</find>
+      <find>device_boot_strap_url</find>
+      <find>stead</find>
+      <find>clean_task_info.clean_task</find>
+      <find>WholeHouseCleanScenario(</find>
+      <find>WholeHouseCleanScenario</find>
+      <find>WholeHouseClean(</find>
+      <find>smart_mode_sweep_mop_sync_clean_times</find>
+      <find>rem</find>
+      <find>障碍物</find>
+      <find>module</find>
+      <find>water_pum</find>
+      <find>water_pump_radio</find>
+      <find>MarkStation</find>
+      <find>getstationpath</find>
+      <find>0.02</find>
+      <find>carpet_safe_distance</find>
+      <find>water_pu</find>
+      <find>water_pump</find>
+      <find>kMopHumidityLevelWet</find>
+      <find>water_pump_radio_before_clean</find>
+      <find>RobotWashTankCtrl</find>
+      <find>MopWater</find>
+      <find>NaviToStationStage</find>
+      <find>friend</find>
+      <find>MOCK</find>
+      <find>need obs avoid</find>
+      <find>recongnize</find>
+      <find>TOPIC_STRATEGY_DEFAULT</find>
+      <find>sampling_count</find>
+      <find>log_upload/Upload</find>
+      <find>clean_strategy</find>
+      <find>UserParam</find>
+      <find>clean_strategy:</find>
+      <find>uuid</find>
+      <find>room id illegal</find>
+      <find>room_order size</find>
+      <find>{}</find>
+      <find>room id illegal, convert items order fail</find>
+      <find>follow_zigzag_overlap</find>
+      <find>overlap</find>
+      <find>cliff</find>
+      <find>cliffwith</find>
+      <find>Disconnect()</find>
+      <find>ResetPahoClient</find>
+      <find>Start</find>
+      <find>AsyncConnect</find>
+      <find>connect random delay time:</find>
+      <find>PlanningReaction</find>
+      <find>Send</find>
+      <find>ReactionEvent</find>
+      <find>PlanningStage</find>
+      <find>RobotPlanningPassiveFollowEvent</find>
+      <find>PassiveFollowEvent</find>
+      <find>RobotPlanningBehaviorEvent</find>
+      <find>BehaviorEvent</find>
+      <find>RobotApplicationStageEvent</find>
+      <find>UpdateConnectionCB</find>
+      <find>traject</find>
+      <find>RobotTrajectoryManager</find>
+      <find>add_carpet_clean</find>
+      <find>CONNACK return code</find>
+      <find>future</find>
+      <find>Connect to broker now.</find>
+      <find>editmap</find>
+      <find>GetEditableMap</find>
+      <find>EditableMapInfo</find>
+      <find>::GetEditableMap(</find>
+      <find>editable_map-&gt;room_map</find>
+      <find>EditableMap</find>
+      <find>kMopStrengthLevelNormal</find>
+      <find>kGroundMaterialDefault</find>
+      <find>Scan points in scale too few</find>
+      <find>forbiddenmapproxy</find>
+      <find>0x0018</find>
+      <find>kErrForbiddenScenarioIfStationInCertification</find>
+      <find>certification</find>
+      <find>SERVICE_RESULT_FORBIDDEN_TASK_IF_STATION_IN_CERTIFICATION</find>
+      <find>voice227</find>
+      <find>enum</find>
+      <find>bitset</find>
+      <find>croncpp</find>
+      <find>items order</find>
+      <find>set_enable_smart</find>
+      <find>water</find>
+      <find>overlap_remop</find>
+      <find>FollowConfigUnit</find>
+      <find>need_margin = false</find>
+      <find>need_margin</find>
+      <find>clean_dir_type</find>
+      <find>开始鲸灵</find>
+      <find>鲸灵模式</find>
+      <find>enable_smart_clean</find>
+      <find>WholeHouseClean</find>
+      <find>enable_smart_mode(</find>
+      <find>GetCleanInitParam().SetCleanParam</find>
+      <find>SetCleanParam</find>
+      <find>GetCleanInitParam().GetCleanParam()</find>
+      <find>ground_material_type</find>
+      <find>kGroundMaterialWood</find>
+      <find>featur</find>
+      <find>featurelist</find>
+      <find>MATERIAL_TATAMI</find>
+      <find>MATERIAL_COBBLE</find>
+      <find>kGroundMaterialTatami</find>
+      <find>kGroundMaterialCeramic</find>
+      <find>GroundMaterial</find>
+      <find>GetGroundMopSetting</find>
+      <find>GetMopHumidityLevelByMaterial</find>
+      <find>mop_humidity_ratio</find>
+      <find>publish_</find>
+      <find>robot</find>
+      <find>player</find>
+      <find>j30</find>
+      <find>not in smart mode</find>
+      <find>UpdateCleanPlanOnSmartMode</find>
+      <find>import</find>
+      <find>import &quot;octopus</find>
+      <find>GetBumperBaseOnKeyFrame</find>
+      <find>addtimer</find>
+      <find>AddTime</find>
+      <find>LoadFromFile</find>
+      <find>DryMopSettingConfigSingleton</find>
+      <find>savetofile</find>
+      <find>MapCollection have not inited</find>
+      <find>直行固定距离</find>
+      <find>CtrlMoveByDistance</find>
+      <find>in_station_count</find>
+      <find>IsInStationOvertime</find>
+      <find>GetMopStrength</find>
+      <find>mop_strength</find>
+      <find>response error_code</find>
+      <find>HOST_RESOLUTION_FAILURE</find>
+      <find>OPERATION_TIMEDOUT</find>
+      <find>kErrCallExecutePlanningStageFailed</find>
+      <find>parking stage failed</find>
+      <find>CleanMissionModule</find>
+      <find>CreateCleanMissionParam</find>
+      <find>CreateCleanPlanByOldPlan</find>
+      <find>kGroundMaterialCobble</find>
+      <find>setpowerdata</find>
+      <find>tracingagg</find>
+      <find>RegisterErrorCodeEvtHandler</find>
+      <find>ParamChangedCodeEvent</find>
+      <find>TracingAggregator</find>
+      <find>ErrorCodeEvent</find>
+      <find>tracing_event</find>
+      <find>Component</find>
+      <find>GetComponent</find>
+      <find>RobotRechargeEvent</find>
+      <find>task_trigger_type</find>
+      <find>stick</find>
+      <find>StickyEvent</find>
+      <find>RobotBeginCleanEvent</find>
+      <find>BeginCleanTracingEvent</find>
+      <find>response.error.code</find>
+      <find>requestgetdomain</find>
+      <find>Try AutoReconnecting</find>
+      <find>GetShadowGetTopic</find>
+      <find>UploadConfiguration</find>
+      <find>cmdline</find>
+      <find>GetRelativeDirectoryByRobotHWVersion</find>
+      <find>ShadowDataTable</find>
+      <find>UpgradeStatus</find>
+      <find>httpsupport_upload_configuration</find>
+      <find>support_upload_configuration</find>
+      <find>http</find>
+      <find>DomainDistributorSingleton</find>
+      <find>ExplorerReportSubmit</find>
+      <find>failed_api_save_path_</find>
+      <find>explore_report_path</find>
+      <find>ROBOLOG_INFO(network_parse) &lt;&lt;</find>
+      <find>EnvSetting</find>
+      <find>Resolving timed out after</find>
+      <find>response error_code:</find>
+      <find>move_distance:</find>
+      <find>robotdevice</find>
+      <find>deviceinfo</find>
+      <find>language</find>
+      <find>LANGUAGE_GERMANY</find>
+      <find>/sweeper-schedule-server/v1/schedule/scheduleReport</find>
+      <find>ScheduleResultReport</find>
+      <find>InnerCleanScheduleResultReport</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/planning/tools/decide_behavior</dir>
+      <dir>$PROJECT_DIR$/common/src/common/ut</dir>
+      <dir>$PROJECT_DIR$/common/conf/j3se</dir>
+      <dir>$PROJECT_DIR$/common/test/common/robot</dir>
+      <dir>$PROJECT_DIR$/mapping/src/mapping/sdk/room_map</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages/room_clean/fsm</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/state_maintainer</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/telecontrol_clean</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/planning/srv</dir>
+      <dir>$PROJECT_DIR$/application/conf/</dir>
+      <dir>$PROJECT_DIR$/application/conf/robot_info</dir>
+      <dir>$PROJECT_DIR$/common/conf/j4</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/http/src/platform/http</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/mqtt</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/develop</dir>
+      <dir>$PROJECT_DIR$/application/src/application/deciders/SecondClean</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/context</dir>
+      <dir>$PROJECT_DIR$/application/test/application/robot_info</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages/room_clean</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/planning_map</dir>
+      <dir>$PROJECT_DIR$/application/conf/j3se/parameter</dir>
+      <dir>$PROJECT_DIR$/planning/</dir>
+      <dir>$PROJECT_DIR$/../devel/include/octopus/proto/core</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/schedule</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/map</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/utils</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/communicator/mqtt</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/http</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/config_client/src/platform/config_client</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/msg/report</dir>
+      <dir>$PROJECT_DIR$/../devel/include/platform/domain_distributor/proto</dir>
+      <dir>$PROJECT_DIR$/../devel/include/</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/clean</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd</dir>
+      <dir>$PROJECT_DIR$/application/test/application/parameter</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/auth_client/src/platform/auth_client</dir>
+      <dir>$PROJECT_DIR$/robokit_telemetry/telemetry_common/src/telemetry_common/utils</dir>
+      <dir>$PROJECT_DIR$/robokit_telemetry/log_upload/src/log_upload/upload</dir>
+      <dir>$PROJECT_DIR$/robokit_telemetry/</dir>
+      <dir>$PROJECT_DIR$/application/src/application/workflow_log</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/common/src/robokit_common/log</dir>
+      <dir>$PROJECT_DIR$/application/test/application/communicator/http</dir>
+      <dir>$PROJECT_DIR$/application/test/application/</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/msg/developer/debug</dir>
+      <dir>$PROJECT_DIR$/common/src/common/visual_debug</dir>
+      <dir>$PROJECT_DIR$/common/src/common/robot/proto</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/wash_mop/trace_event</dir>
+      <dir>$PROJECT_DIR$/simulation/robot_gazebo/plugins/src</dir>
+      <dir>$PROJECT_DIR$/application/src/application/monitor/health_management/error_check/checker</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_publishers/robot_base_status</dir>
+      <dir>$PROJECT_DIR$/toolkit/src/toolkit/proto</dir>
+      <dir>$PROJECT_DIR$/robokit_telemetry</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-c</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/include/mqtt</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-cpp/src/src</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-c/</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/paho-mqtt-c/src/src</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/framework/msg</dir>
+      <dir>$PROJECT_DIR$/mapping/src/mapping/sdk</dir>
+      <dir>$PROJECT_DIR$/perception/src/perception/simple_sensor/mop_clean</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/frame</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/localization/service</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/perception/service</dir>
+      <dir>$PROJECT_DIR$/application/src/application/robot_info</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/room_clean/trace_event</dir>
+      <dir>$PROJECT_DIR$/perception/conf</dir>
+      <dir>$PROJECT_DIR$/simulation</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/tracing</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/explore</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/explore_on_station</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_publishers</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/framework/src/frame/node</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/framework/src/frame/application</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/</dir>
+      <dir>$PROJECT_DIR$/application/src/application/low_power</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/framework/src/frame/node/impl</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/framework/src/frame/hibernation</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/common/src/robokit_common/utils</dir>
+      <dir>$PROJECT_DIR$/protocol/src/hal</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/application/srv</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/application/service</dir>
+      <dir>$PROJECT_DIR$/hal/src/pita/hal/components/button</dir>
+      <dir>$PROJECT_DIR$/hal/src/pita/hal/components/button/private</dir>
+      <dir>$PROJECT_DIR$/hal/</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/hal/topic</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/control</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/planning/service</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/common/srv</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/frame/motion</dir>
+      <dir>$PROJECT_DIR$/common/src/common/application</dir>
+      <dir>$PROJECT_DIR$/common/src/common/application/hibernation</dir>
+      <dir>$PROJECT_DIR$/application/src/application/monitor/strategy/impl</dir>
+      <dir>$PROJECT_DIR$/application/src/application/monitor/strategy</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/debug_tools</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/srv/clean/plan</dir>
+      <dir>$PROJECT_DIR$/perception/src/perception/lidar/parking_recognition</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/behavior/parking/bt</dir>
+      <dir>$PROJECT_DIR$/application/conf/communicator</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/ros</dir>
+      <dir>$PROJECT_DIR$/hal</dir>
+      <dir>$PROJECT_DIR$/cmake-build-debug/localization/src/map_server_node/abseil-src/absl/container</dir>
+      <dir>$PROJECT_DIR$/cmake-build-debug/localization/src/map_server_node/abseil-src/absl/base/internal</dir>
+      <dir>$PROJECT_DIR$/localization/src/map_server_node/include/map_server_node/modules/data_record/data_replay</dir>
+      <dir>$PROJECT_DIR$/hal/src/pita/hal/components/lidar/driver</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/3rd_cmake/Utilities/cmzstd/lib/common</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/room_clean</dir>
+      <dir>$PROJECT_DIR$/application/src/application/deciders</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios</dir>
+      <dir>$PROJECT_DIR$/application/test/application/communicator/mqtt</dir>
+      <dir>$PROJECT_DIR$/common/src/common/error_code</dir>
+      <dir>$PROJECT_DIR$/common/conf/y1</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/behavior/follow</dir>
+      <dir>$PROJECT_DIR$/robokit_telemetry/robokit_telemetry/src/telemetry</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/clean_module</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/hal/service</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/departure</dir>
+      <dir>$PROJECT_DIR$/application/src/application/common</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages/navigation</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/task/zone_clean/bt</dir>
+      <dir>$PROJECT_DIR$/toolkit/conf</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/proto</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/task/zone_clean/bt/region_clean</dir>
+      <dir>$PROJECT_DIR$/planning</dir>
+      <dir>$PROJECT_DIR$/protocol/src/protocol/hal/msg</dir>
+      <dir>$PROJECT_DIR$/protocol</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/behavior/reaction</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/common/src/robokit_common/eventloop</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/behavior/follow/bt/passive_follow</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/behavior</dir>
+      <dir>$PROJECT_DIR$/application/src/application/</dir>
+      <dir>$PROJECT_DIR$/application/src/application/map/external_map</dir>
+      <dir>$PROJECT_DIR$/application/conf/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/report</dir>
+      <dir>$PROJECT_DIR$/application/src/application/utils</dir>
+      <dir>$PROJECT_DIR$/application/</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/include/croncpp</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/area_clean</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/report/time_line</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/wash_mop</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers</dir>
+      <dir>$PROJECT_DIR$/application/conf/j3lite/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt/client</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/user</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto/</dir>
+      <dir>$PROJECT_DIR$/mapping/src/mapping/util</dir>
+      <dir>$PROJECT_DIR$/application/src/application</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/stages/function_unit_test</dir>
+      <dir>$PROJECT_DIR$/planning/src/planning/behavior/parking/action</dir>
+      <dir>$PROJECT_DIR$/application/src/application/user</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/http/report</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/include/cpr</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/core</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages</dir>
+      <dir>$PROJECT_DIR$/application/src/application/proto</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/parking</dir>
+      <dir>$PROJECT_DIR$/application/conf/y1/parameter</dir>
+      <dir>$PROJECT_DIR$/application/src/application/aggregation</dir>
+      <dir>$PROJECT_DIR$/application/src/application/monitor/health_management/error_report</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/clean_setting/handler</dir>
+      <dir>$PROJECT_DIR$/application/src/application/robot_info/data</dir>
+      <dir>$PROJECT_DIR$/application/src/application/stages/charging</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios_new/whole_house_clean</dir>
+      <dir>$PROJECT_DIR$/application/src/application/tracing/event_handler</dir>
+      <dir>$PROJECT_DIR$/application/src/application/tracing</dir>
+      <dir>$PROJECT_DIR$/application/src</dir>
+      <dir>$PROJECT_DIR$/robokit_framework/common/src/robokit_common/event</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean/trace_event</dir>
+      <dir>$PROJECT_DIR$/application/src/application/scenarios/whole_house_clean</dir>
+      <dir>$PROJECT_DIR$/planning/conf/y1</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/core/device_shadow</dir>
+      <dir>$PROJECT_DIR$/common/conf</dir>
+      <dir>$PROJECT_DIR$/common/</dir>
+      <dir>$PROJECT_DIR$/common/src/common/config</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/msg/status</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/mqtt/msg/upgrade</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/mqtt</dir>
+      <dir>$PROJECT_DIR$/robokit_platform</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/http/retry</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator/http</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/domain_distributor/src/platform/domain_distributor</dir>
+      <dir>$PROJECT_DIR$/application/src/application/communicator</dir>
+      <dir>$PROJECT_DIR$/application/conf</dir>
+      <dir>$PROJECT_DIR$/application</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/cmake</dir>
+      <dir>$PROJECT_DIR$/common/src/common/robot</dir>
+      <dir>$PROJECT_DIR$/robokit_3rd/build/cpr/src/build/_deps/curl-src/lib</dir>
+      <dir>$PROJECT_DIR$/application/src/application/parameter/table</dir>
+      <dir>$PROJECT_DIR$/planning/conf</dir>
+      <dir>$PROJECT_DIR$/application/src/application/parameter/modules</dir>
+      <dir>$PROJECT_DIR$/application/src/application/parameter</dir>
+      <dir>$PROJECT_DIR$/robokit_platform/http/src/platform/http/impl</dir>
+      <dir>$PROJECT_DIR$/octopus/proto/http/schedule</dir>
+      <dir>$PROJECT_DIR$/application/src/application/schedule</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/application/src/application/stages/ParallelStage.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/scenarios/context/RoomCleanInfo.h" />
+      <option value="$PROJECT_DIR$/application/src/application/stages/room_clean/RoomCleanStage.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/proto/Domain.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/parameter/modules/CleanMissionModule.cpp" />
+      <option value="$PROJECT_DIR$/application/test/application/communicator/mqtt/ConnectManagerTest.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/robot_info/data/WettingMopInfo.h" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_publishers/DisplayMapPublisher.cpp" />
+      <option value="$PROJECT_DIR$/common/conf/y1/FeatureList.conf" />
+      <option value="$PROJECT_DIR$/application/test/application/communicator/mqtt/ShadowClientTest.cpp" />
+      <option value="$PROJECT_DIR$/toolkit/conf/RecordConfig.conf" />
+      <option value="$PROJECT_DIR$/octopus/proto/core/device_shadow/UploadConfiguration.proto" />
+      <option value="$PROJECT_DIR$/octopus/proto/mqtt/srv/common/GetFeatureList.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/client/ConnectManager.h" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/client/MqttClient.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/client/ConnectManager.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/parameter/modules/CleanPlanModule.cpp" />
+      <option value="$PROJECT_DIR$/planning/conf/planning_pc.conf" />
+      <option value="$PROJECT_DIR$/perception/conf/perception_pc.conf" />
+      <option value="$PROJECT_DIR$/application/src/application/parameter/CleanTaskConvertUtils.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/stages/clean_setting/handler/HouseCleanSettingHandler.cpp" />
+      <option value="$PROJECT_DIR$/octopus/proto/mqtt/msg/status/TimeLineStatus.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/report/time_line/TimeLineConvert.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/proto/parameter/CleanOptions.proto" />
+      <option value="$PROJECT_DIR$/application/conf/parameter/CleanParamConfig.conf" />
+      <option value="$PROJECT_DIR$/application/conf/j4/parameter/CleanParamConfig.conf" />
+      <option value="$PROJECT_DIR$/application/conf/j3se/parameter/CleanParamConfig.conf" />
+      <option value="$PROJECT_DIR$/application/conf/j3lite/parameter/CleanParamConfig.conf" />
+      <option value="$PROJECT_DIR$/application/test/application/communicator/mqtt/MqttClientTest.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/user/UserManagerComponent.h" />
+      <option value="$PROJECT_DIR$/application/src/application/proto/user/ScheduledTasks.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/user/UserManagerComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/conf/y1/parameter/CleanParamConfig.conf" />
+      <option value="$PROJECT_DIR$/application/src/application/tracing/TracingAggregator.h" />
+      <option value="$PROJECT_DIR$/application/src/application/tracing/TracingComponent.h" />
+      <option value="$PROJECT_DIR$/application/src/application/tracing/TracingComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/tracing/event_handler/RobotRechargeTracingEventHandler.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.h" />
+      <option value="$PROJECT_DIR$/application/src/CMakeLists.txt" />
+      <option value="$PROJECT_DIR$/octopus/proto/mqtt/msg/status/RobotTaskStatus.proto" />
+      <option value="$PROJECT_DIR$/octopus/proto/core/ShadowDataTable.proto" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/GetFeatureListHandler.cpp" />
+      <option value="$PROJECT_DIR$/application/conf/application_pc.conf" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/conf/parse_network_log.sh" />
+      <option value="$PROJECT_DIR$/application/src/application/communicator/http/ProtobufRequest.h" />
+      <option value="$PROJECT_DIR$/robokit_platform/domain_distributor/src/platform/domain_distributor/DomainDistributor.cpp" />
+      <option value="$PROJECT_DIR$/common/src/common/robot/Robot.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.cpp" />
+      <option value="$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.h" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="ASM">
+      <summary usageCount="1" lastUsage="1687269378325" />
+    </language>
+    <language id="CMake">
+      <summary usageCount="63" lastUsage="1698130562231" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1684911635316" />
+    </language>
+    <language id="ObjectiveC">
+      <summary usageCount="3277" lastUsage="1698315842680" />
+    </language>
+    <language id="Shell Script">
+      <summary usageCount="3" lastUsage="1697798783334" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="92" lastUsage="1698315636622" />
+    </language>
+    <language id="XML">
+      <summary usageCount="15" lastUsage="1693395391249" />
+    </language>
+    <language id="protobuf">
+      <summary usageCount="495" lastUsage="1698315842373" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="329" lastUsage="1698315842614" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Google Test.RobotTypeTest.OneTest" executorId="Run" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/planning" commandHistoryFileName="src-history" />
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RobotTypeTest_OneTest - 2023.02.09 at 21h 39m 12s.xml">
+      <configuration name="RobotTypeTest.OneTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1307175000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Commit" weight="0.18154761" />
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19453463" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.34202754" />
+      <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.33021653" />
+      <window_info anchor="bottom" id="Run" order="2" show_stripe_button="false" weight="0.33021653" />
+      <window_info anchor="bottom" id="Debug" order="3" show_stripe_button="false" weight="0.34276128" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="CMake" order="6" visible="true" weight="0.18848425" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="8" weight="0.33021653" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33021653" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33021653" />
+      <window_info anchor="bottom" id="Services" order="11" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32981604" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25027055" />
+      <window_info anchor="right" id="Translation.Wordbook" order="2" side_tool="true" />
+      <window_info anchor="right" id="make" order="3" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Commit" weight="0.18154761" />
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19020563" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3390748" />
+      <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.33021653" />
+      <window_info anchor="bottom" id="Run" order="2" show_stripe_button="false" weight="0.33021653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3430118" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="CMake" order="6" visible="true" weight="0.20521654" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33021653" />
+      <window_info anchor="bottom" id="Services" order="11" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32981604" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25027055" />
+      <window_info anchor="right" id="Translation.Wordbook" order="2" side_tool="true" />
+      <window_info anchor="right" id="make" order="3" show_stripe_button="false" side_tool="true" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>CMake</value>
+      <value>Project</value>
+      <value>Debug</value>
+      <value>Commit</value>
+      <value>Version Control</value>
+      <value>Database</value>
+      <value>Terminal</value>
+      <value>Notifications</value>
+      <value>Problems View</value>
+      <value>Find</value>
+      <value>Run</value>
+      <value>Messages</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="278" width="741" height="550" key="#Notifications" timestamp="1691652370447">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="629" y="278" width="741" height="550" key="#Notifications/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1691652370447" />
+    <state x="758" y="264" width="465" height="592" key="#Web_Browsers_and_Preview" timestamp="1698315657669">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2633" y="243" key="#Web_Browsers_and_Preview/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1698312095923" />
+    <state x="758" y="264" width="465" height="592" key="#Web_Browsers_and_Preview/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1698315657669" />
+    <state x="535" y="267" key="FileChooserDialogImpl" timestamp="1698132701700">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2401" y="246" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1698130551493" />
+    <state x="535" y="267" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1698132701700" />
+    <state width="1804" height="329" key="GridCell.Tab.0.bottom" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.0.center" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.0.left" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.0.right" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.1.bottom" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.1.center" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.1.left" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state width="1804" height="329" key="GridCell.Tab.1.right" timestamp="1697964948349">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="329" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881502181" />
+    <state width="1804" height="329" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964948349" />
+    <state x="201" y="191" width="1532" height="737" key="SettingsEditor" timestamp="1698315773639">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="271" y="231" width="1532" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881517040" />
+    <state x="201" y="191" width="1426" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1698315773639" />
+    <state x="172" y="127" width="1648" height="853" key="VCS.FileHistoryDialog" timestamp="1691739839828">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="VCS.FileHistoryDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1691739839828" />
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1691740386665">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1691740386665" />
+    <state x="855" y="402" key="com.jetbrains.cidr.cpp.cmake.actions.CMakeAddFileToProjectDialog" timestamp="1697964373965">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="855" y="402" key="com.jetbrains.cidr.cpp.cmake.actions.CMakeAddFileToProjectDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1697964373965" />
+    <state x="323" y="164" width="1302" height="829" key="find.popup" timestamp="1698312712747">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2265" y="38" width="1353" height="851" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1698311888614" />
+    <state x="323" y="164" width="1302" height="829" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1698312712747" />
+    <state x="660" y="252" width="672" height="685" key="run.anything.popup" timestamp="1693299038337">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" width="672" height="685" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1693299038337" />
+    <state x="659" y="259" width="781" height="523" key="search.everywhere.popup" timestamp="1698226139881">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="2530" y="238" width="812" height="537" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1697881199852" />
+    <state x="659" y="259" width="781" height="523" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1698226139881" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt/DeviceShadowClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="195" column="56" selection-start-line="195" selection-start-column="56" selection-end-line="195" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/octopus/proto/http/report/ExplorerReportSubmit.pb.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="460" column="65" selection-start-line="460" selection-start-column="65" selection-end-line="460" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_publishers/ExplorerReportPublisher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/report/ExplorerReport.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/test/application/communicator/http/RequestRetryTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_framework/common/src/robokit_common/time/SteadyClock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_framework/framework/src/frame/time/SteadyClock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_framework/common/src/robokit_common/time/SystemTime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_framework/framework/src/frame/time/SystemTime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/AsyncManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/Caller.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/impl/ClientPoco.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/Client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/impl/ClientPoco.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/AsyncRequestHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/conf/parse_network_log.sh" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/http/ProtobufRequest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="306" column="51" selection-start-line="306" selection-start-column="51" selection-end-line="306" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="640" column="13" selection-start-line="640" selection-start-column="13" selection-end-line="640" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/CommunicatorComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="335" column="41" selection-start-line="335" selection-start-column="41" selection-end-line="335" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/http/retry/AsyncUploader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="62" column="78" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/user/UserManagerComponent.h" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/user/UserManagerComponent.cpp" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/user/scheduled_task/ScheduledTaskModule.cpp" />
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/http/retry/AsyncUploader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/http/retry/AsyncRequestHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/domain_distributor/src/platform/domain_distributor/DomainDistributor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_3rd/cmake/EnvSetting.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/conf/application_pc.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/common/robot/Robot.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="e#369#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_3rd/build/cpr/src/build/_deps/curl-src/lib/multihandle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_3rd/build/cpr/src/build/_deps/curl-src/lib/multi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="1720" column="28" selection-start-line="1720" selection-start-column="28" selection-end-line="1720" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/AsyncRequestHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/UserModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="440" column="34" selection-start-line="440" selection-start-column="34" selection-end-line="440" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_platform/http/src/platform/http/impl/ClientCPR.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robokit_3rd/include/cpr/error.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/modules/UserModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1072" selection-start-line="1072" selection-end-line="1072" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/ParameterProtoConvertUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/http/schedule/ScheduleResultReport.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1149" selection-start-line="1149" selection-end-line="1149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octopus/proto/http/schedule/ScheduleReminder.proto">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/table/Table.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="273" column="42" selection-start-line="273" selection-start-column="42" selection-end-line="273" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/parameter/table/Table.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="247" column="73" selection-start-line="247" selection-start-column="73" selection-end-line="247" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planning/conf/Departure.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/config/DeviceInfoConfig.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetConfigHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/communicator/mqtt_handlers/SetConfigHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/application/schedule/TaskSchedulerComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="282" column="24" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>default</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41847825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

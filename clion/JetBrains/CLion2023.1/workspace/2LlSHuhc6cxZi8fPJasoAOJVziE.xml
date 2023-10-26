@@ -1,0 +1,300 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="j1" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/WebsocketSenderService.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network/NetworkStateHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network/WifiWriteHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/schedules/tasks/WifiInfoUpload.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/output/contants/VoiceDef.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pita_clean_system/conf/both/voice.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="153" column="41" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="ObjectiveC">
+      <summary usageCount="10" lastUsed="1676538096195" />
+    </fileType>
+    <fileType name="YAML">
+      <summary usageCount="3" lastUsed="1676538394299" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GetToken</find>
+      <find>RobotGetObsToken</find>
+      <find>frame::log</find>
+      <find>token</find>
+      <find>Logging::</find>
+      <find>low_power_idle</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/pita_communicator/src/pita/communicator/services</dir>
+      <dir>$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network</dir>
+      <dir>$PROJECT_DIR$/pita_communicator/src/pita/communicator/schedules/tasks</dir>
+      <dir>$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/output/contants</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/ObsService.cpp" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="ObjectiveC">
+      <summary usageCount="10" lastUsage="1676538096195" />
+    </language>
+    <language id="yaml">
+      <summary usageCount="3" lastUsage="1676538394299" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="conf_r16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="conf_tina35" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="general" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pita" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pita" type="462c0819:PsiDirectoryNode" />
+              <item name="communicator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pita" type="462c0819:PsiDirectoryNode" />
+              <item name="communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1" type="462c0819:PsiDirectoryNode" />
+              <item name="pita_communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pita" type="462c0819:PsiDirectoryNode" />
+              <item name="communicator" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotDataCenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5648000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18479437" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Services" order="9" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
+      <window_info anchor="right" id="make" order="2" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1676538861288">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1676538861288" />
+    <state x="417" y="174" width="1331" height="725" key="find.popup" timestamp="1676538394261">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="417" y="174" width="1331" height="725" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1676538394261" />
+    <state x="659" y="259" width="672" height="686" key="search.everywhere.popup" timestamp="1676538096198">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="686" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1676538096198" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/ObsService.cpp" />
+    <entry file="file://$PROJECT_DIR$/pita_communicator/conf/conf_tina35/log.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/conf/conf_r16/log.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/services/WebsocketSenderService.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network/NetworkStateHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/modules/http_service/distribution_network/WifiWriteHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_communicator/src/pita/communicator/schedules/tasks/WifiInfoUpload.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_clean_system/include/pita/clean_system/modules/output/contants/VoiceDef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pita_clean_system/conf/both/voice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="153" column="41" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

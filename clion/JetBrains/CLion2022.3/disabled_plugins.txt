@@ -1,0 +1,2 @@
+io.kanro.idea.plugin.protobuf
+ros-integrate

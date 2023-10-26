@@ -1,0 +1,420 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="workspace" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SHOW_PREVIEW" is_vertical_split="false">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clean_system/conf/general/clean_system.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/controller/ControllerModule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="361" column="77" selection-start-line="361" selection-start-column="58" selection-end-line="361" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/station_opt/StationOptModule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="601" column="71" selection-start-line="601" selection-start-column="71" selection-end-line="601" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/component/base_station/client/BaseStationClient.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="91" lean-forward="true" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/service_server/StaCleanCtrlSrv.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/CommComp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="113" column="45" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/service_client/ServiceClients.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/station/core/base_tasks/MopClean.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pita_comm/src/pita/comm/utils/StationInfoService.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Markdown">
+      <summary usageCount="5" lastUsed="1681963040435" />
+    </fileType>
+    <fileType name="ObjectiveC">
+      <summary usageCount="38" lastUsed="1681971770841" />
+    </fileType>
+    <fileType name="WebPreview">
+      <summary usageCount="1" lastUsed="1680149307399" />
+    </fileType>
+    <fileType name="YAML">
+      <summary usageCount="2" lastUsed="1681963040553" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ChargeSwitchHandler</find>
+      <find>ChargeSwitch</find>
+      <find>BaseDriverCommand</find>
+      <find>SwitchRobotChargeStateToOpen</find>
+      <find>MonitorDrying</find>
+      <find>SwitchRobotChargeState</find>
+      <find>SwitchRobotChargeStateToClose</find>
+      <find>StationWorkState</find>
+      <find>HEATING</find>
+      <find>GetStationInfo</find>
+      <find>::terminatenodes</find>
+      <find>NodeCommErrorHandler</find>
+      <find>NodeCommError</find>
+      <find>NodeErrorDetect</find>
+      <find>TerminateNodes</find>
+      <find>node_killed_type_</find>
+      <find>KillNodeByName</find>
+      <find>SIGTERM</find>
+      <find>kill(</find>
+      <find>shutdown_battery</find>
+      <find>shutdown_battery_remind_per</find>
+      <find>battery</find>
+      <find>minimum_battery</find>
+      <find>mininum_cell_voltage</find>
+      <find>GetBestChargeResDuringWorkingFromBatteyVoltage</find>
+      <find>ErrorType::StationContactError</find>
+      <find>StationContactError</find>
+      <find>BaseStatError</find>
+      <find>BaseStatErrorEvent</find>
+      <find>STATION_CONTACT_STATUS</find>
+      <find>base_stat_error_code</find>
+      <find>mop_speed_task_size</find>
+      <find>StationInfoService</find>
+      <find>/station_communicator/clean/control</find>
+      <find>gitlab@git.narwal.com:j2/station_communicator.git</find>
+      <find>ReqSetMopCleanCt</find>
+      <find>StationCleanCtrl</find>
+      <find>ReqSetMopCleanType</find>
+      <find>SendStaionCleanCtrlCmd</find>
+      <find>BleConnState</find>
+      <find>SendStationCleanStateRequest</find>
+      <find>GetCommComp</find>
+      <find>srv_handler</find>
+      <find>CallBleOpenSrv</find>
+      <find>ERR_BLE_OPEN_TIMEOUT</find>
+      <find>BleOpen</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/clean_system/</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/component/sensor/client</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/monitor</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/controller/core/error/handle/handlers</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/clean_system</dir>
+      <dir>$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/events/sys_monitor</dir>
+      <dir>$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/modules/sys_monitor/functors</dir>
+      <dir>$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/modules/sys_monitor</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/conf/</dir>
+      <dir>$PROJECT_DIR$/src/</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/conf/general</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/controller</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/station_opt</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/station/core/base_tasks</dir>
+      <dir>$PROJECT_DIR$/src/clean_system/src/pita/component/base_station/client</dir>
+      <dir>$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/service_server</dir>
+      <dir>$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator</dir>
+      <dir>$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/service_client</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/monitor/MonitorModule.cpp" />
+      <option value="$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/modules/sys_monitor/SysMonitorModule.cpp" />
+      <option value="$PROJECT_DIR$/src/clean_system/conf/general/clean_system.yaml" />
+      <option value="$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/station_opt/StationOptModule.cpp" />
+      <option value="$PROJECT_DIR$/src/clean_system/src/pita/station/core/base_tasks/MopClean.cpp" />
+      <option value="$PROJECT_DIR$/src/clean_system/src/pita/component/base_station/client/BaseStationClient.cpp" />
+      <option value="$PROJECT_DIR$/src/pita_comm/src/pita/comm/utils/StationInfoService.h" />
+      <option value="$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/CommComp.cpp" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Markdown">
+      <summary usageCount="5" lastUsage="1681963040436" />
+    </language>
+    <language id="ObjectiveC">
+      <summary usageCount="38" lastUsage="1681971770841" />
+    </language>
+    <language id="yaml">
+      <summary usageCount="2" lastUsage="1681963040553" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/j2/workspace}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/j2/workspace}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/aaron/workspace/narwal/j2/workspace/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13644000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1983225" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Python Packages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Services" order="9" />
+      <window_info anchor="bottom" id="Vcpkg" order="10" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
+      <window_info anchor="right" id="make" order="2" show_stripe_button="false" side_tool="true" />
+      <unified_weights left="0.1983225" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1678937726087">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1678937726087" />
+    <state x="386" y="310" width="1369" height="770" key="find.popup" timestamp="1681972573651">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="386" y="310" width="1369" height="770" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1681972573651" />
+    <state x="835" y="390" width="672" height="686" key="search.everywhere.popup" timestamp="1681970984633">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="835" y="390" width="672" height="686" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1681970984633" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/monitor/MonitorModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="154" column="44" selection-start-line="154" selection-start-column="44" selection-end-line="154" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/component/sensor/client/BaseDriverCmdClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/events/sys_monitor/TerminateNodes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/modules/sys_monitor/functors/TerminateNodes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/modules/sys_monitor/functors/TerminateNodes.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pita_monitor/src/pita/monitor/modules/sys_monitor/SysMonitorModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="330" selection-start-line="330" selection-end-line="330" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/controller/core/error/handle/handlers/NodeCommErrorHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/monitor/MonitorModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="985" column="26" selection-start-line="985" selection-start-column="26" selection-end-line="985" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pita_comm/src/pita/comm/utils/StationInfoService.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_PREVIEW" is_vertical_split="false">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/conf/general/clean_system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/controller/ControllerModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="361" column="77" selection-start-line="361" selection-start-column="58" selection-end-line="361" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/clean_system/modules/station_opt/StationOptModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="601" column="71" lean-forward="true" selection-start-line="601" selection-start-column="71" selection-end-line="601" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/station/core/base_tasks/MopClean.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pita_comm/src/pita/comm/utils/StationInfoService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clean_system/src/pita/component/base_station/client/BaseStationClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="91" lean-forward="true" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/service_server/StaCleanCtrlSrv.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/CommComp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="113" column="45" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/station_communicator/src/station_communicator/clean_service/communicator/service_client/ServiceClients.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
