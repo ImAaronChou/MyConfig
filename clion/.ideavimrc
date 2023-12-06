@@ -134,7 +134,7 @@ set keep-english-in-normal
 " 自定义key map
 " ==================================================
 "跳到对应的cpp/header
-nnoremap <silent> <Leader>sw : action GotoRelated<cr>
+nnoremap <silent> <Leader>sw : action SwitchHeaderSource<cr>
 
 "注释
 vnoremap <silent> <Leader>cc : action CommentByLineComment<cr>
