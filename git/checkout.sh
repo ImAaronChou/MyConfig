@@ -24,7 +24,7 @@ checkout_to_branch() {
     flock -x ${LOCK_DESC}
 
     echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-    echo ${SCRIPT_PATH}/$1}
+    echo -e "${SCRIPT_PATH}/\033[32m$1\033[0m"
     echo ""
 
     if [ -n "${OUTPUT_FETCH}" ]; then
