@@ -1,0 +1,157 @@
+{
+    "vim.useCtrlKeys": true, // 启用 Ctrl 键映射
+    "vim.useSystemClipboard": true, //使用系统剪贴板寄存器
+    "vim.surround": true, //用于处理括号、方括号、引号和 XML 标签等周围的字符
+    "editor.lineNumbers": "on", // 开启显示行号
+    "editor.cursorBlinking": "blink", // 开启光标闪烁
+    "editor.cursorStyle": "line", // 光标样式为竖线
+    "editor.renderWhitespace": "all", // 显示空白字符
+    // 代码缩进和排版
+    "editor.autoIndent": "advanced", // 高级自动缩进
+    "editor.formatOnSave": true, // 保存时自动格式化
+    "editor.formatOnType": true, // 输入时自动格式化
+    "editor.tabSize": 4, // Tab 大小
+    "editor.insertSpaces": true, // 将 Tab 转为空格
+    "editor.detectIndentation": false, // 禁用自动检测缩进
+    // 代码补全
+    "editor.quickSuggestions": { // 启用快速建议
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true, // 启用触发字符建议
+    "editor.acceptSuggestionOnEnter": "smart", // 启用回车接受建议
+    "editor.snippetSuggestions": "top", // 启用和排序片段建议
+    // 搜索设置
+    "search.showLineNumbers": true, // 显示搜索结果行号
+    "search.smartCase": true, // 启用智能大小写
+    // 编码设置
+    "files.encoding": "utf8", // 文件编码默认设置为 UTF-8
+    "files.autoGuessEncoding": true, // 启用自动猜测编码
+    // airLine 配置
+    "workbench.colorTheme": "Default Dark Modern", // 设置主题
+    "workbench.iconTheme": "vs-seti", // 设置图标主题
+    // 其他设置
+    "files.autoSave": "off", // 更改焦点时自动保存
+    "files.trimTrailingWhitespace": true, // 修剪尾随空白
+    "files.insertFinalNewline": true, // 文件末尾插入新行
+    "files.trimFinalNewlines": false, // 修剪尾随新行
+    "workbench.editor.highlightModifiedTabs": true, // 高亮修改过的标签
+    "editor.mouseWheelZoom": true, // 开启鼠标支持
+    "editor.renderLineHighlight": "all", // 设置光标所在列高亮
+    "editor.guides.indentation": true, // 代码对齐线
+    "workbench.colorCustomizations": {
+        "editor.background": "#2B2B2B", // 编辑器背景色
+        "editor.foreground": "#A9B7C6", // 编辑器前景色
+        "editorCursor.foreground": "#FFFFFF", // 光标颜色
+        "editor.lineHighlightBackground": "#323232", // 当前行高亮
+        "editor.selectionBackground": "#3E4451", // 选择区域背景色
+        "sideBar.background": "#313335", // 侧边栏背景色 (Explorer)
+        "sideBar.foreground": "#A9B7C6", // 侧边栏前景色 (文本颜色)
+        "sideBarTitle.foreground": "#A9B7C6", // 侧边栏标题前景色
+        "sideBarSectionHeader.background": "#282C34", // 侧边栏节标题背景色
+        "sideBarSectionHeader.foreground": "#A9B7C6", // 侧边栏节标题前景色
+        "list.activeSelectionBackground": "#3E4451", // 侧边栏活动选择背景色
+        "list.inactiveSelectionBackground": "#3E4451", // 侧边栏非活动选择背景色
+        "list.hoverBackground": "#32353B", // 侧边栏悬停背景色
+        "list.highlightForeground": "#FFFFFF", // 侧边栏高亮前景色
+        "statusBar.background": "#3C3F41", // 状态栏背景色
+        "statusBar.foreground": "#A9B7C6", // 状态栏前景色
+        "activityBar.background": "#3C3F41", // 活动栏背景色
+        "activityBar.foreground": "#A9B7C6", // 活动栏前景色
+        "activityBarBadge.background": "#CC7832", // 活动栏徽章背景色
+        "activityBarBadge.foreground": "#FFFFFF", // 活动栏徽章前景色
+        "titleBar.activeBackground": "#3C3F41", // 活动窗口标题栏背景色
+        "titleBar.inactiveBackground": "#282C34", // 不活动窗口标题栏背景色
+        "titleBar.activeForeground": "#A9B7C6", // 活动窗口标题栏前景色
+        "titleBar.inactiveForeground": "#A9B7C6", // 不活动窗口标题栏前景色
+        "tab.activeBackground": "#2B2B2B", // 活动选项卡背景色
+        "tab.inactiveBackground": "#3C3F41", // 不活动选项卡背景色
+        "tab.activeForeground": "#FFFFFF", // 活动选项卡前景色
+        "tab.inactiveForeground": "#A9B7C6", // 不活动选项卡前景色
+        "editorError.foreground": "#E06C75", // 错误前景色
+        "editorWarning.foreground": "#D19A66", // 警告前景色
+        "editorInfo.foreground": "#56B6C2", // 信息前景色
+        "button.background": "#4E5A65", // 按钮背景色
+        "button.foreground": "#FFFFFF", // 按钮前景色
+        "scrollbarSlider.background": "#4E5A65", // 滚动条滑块背景色
+        "scrollbarSlider.hoverBackground": "#5A6374", // 滚动条滑块悬停背景色
+        "scrollbarSlider.activeBackground": "#747D88" // 滚动条滑块活动背景色
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#808080"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#CC7832"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#6A8759"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#6897BB"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#6897BB"
+                }
+            },
+            {
+                "scope": "constant.character",
+                "settings": {
+                    "foreground": "#6897BB"
+                }
+            },
+            {
+                "scope": "variable.language",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            },
+            {
+                "scope": "variable.other",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            },
+            {
+                "scope": "entity.name.class",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#FFC66D"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            }
+        ]
+    }
+}

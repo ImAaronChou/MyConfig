@@ -1,0 +1,86 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "editorTextFocus && activeEditorGroupIndex == 1 && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusRightGroup",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusAboveGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+h",
+        "command": "workbench.action.previousEditorInGroup",
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "shift+l",
+        "command": "workbench.action.nextEditorInGroup",
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "shift+q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "\\ j d",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "\\ s w",
+        "command": "clangd.switchheadersource",
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus || vim.mode != 'Normal'"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "\\ c c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && vim.active'"
+        // 如果when加了vim.mode == 'Visual',就会失效,似乎是vscode-vim的bug，vscode无法捕获这个状态
+        //另外，在setting.json使用vim.visualModeKeyBindingsNonRecursive来映射该功能，也无法生效
+        // 如果使用按键gc可生效，ga则失效，可能是vscode-vim的bug，部分按键存在冲突无法识别
+    },
+    {
+        "key": "\\ c u",
+        "command": "editor.action.removeCommentLine",
+        "when": "editorTextFocus && vim.active '"
+    },
+    {
+        "key": "\\ =",
+        "command": "editor.action.formatSelection",
+        "when": "editorTextFocus && vim.active '"
+    }
+]
