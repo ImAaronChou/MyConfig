@@ -1,4 +1,14 @@
 {
+    "vim.handleKeys": { // 由vscode映射完成,屏蔽vim的映射
+        "<C-p>": false, //goto file
+        "<C-h>": false,
+        "<C-l>": false,
+        "<C-k>": false,
+        "<C-j>": false,
+        "<S-h>": false,
+        "<S-l>": false,
+        "<S-q>": false,
+    },
     "vim.useCtrlKeys": true, // 启用 Ctrl 键映射
     "vim.useSystemClipboard": true, //使用系统剪贴板寄存器
     "vim.surround": true, //用于处理括号、方括号、引号和 XML 标签等周围的字符
@@ -29,7 +39,7 @@
     "files.encoding": "utf8", // 文件编码默认设置为 UTF-8
     "files.autoGuessEncoding": true, // 启用自动猜测编码
     // airLine 配置
-    "workbench.colorTheme": "Default Dark Modern", // 设置主题
+    "workbench.colorTheme": "JetBrains Darcula Theme", // 设置主题
     "workbench.iconTheme": "vs-seti", // 设置图标主题
     // 其他设置
     "files.autoSave": "off", // 更改焦点时自动保存
@@ -40,6 +50,7 @@
     "editor.mouseWheelZoom": true, // 开启鼠标支持
     "editor.renderLineHighlight": "all", // 设置光标所在列高亮
     "editor.guides.indentation": true, // 代码对齐线
+    // 主题配色设置
     "workbench.colorCustomizations": {
         "editor.background": "#2B2B2B", // 编辑器背景色
         "editor.foreground": "#A9B7C6", // 编辑器前景色
@@ -77,6 +88,9 @@
         "scrollbarSlider.background": "#4E5A65", // 滚动条滑块背景色
         "scrollbarSlider.hoverBackground": "#5A6374", // 滚动条滑块悬停背景色
         "scrollbarSlider.activeBackground": "#747D88" // 滚动条滑块活动背景色
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true, // 确保语义着色功能开启
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -141,17 +155,14 @@
                 }
             },
             {
-                "scope": "entity.name.function",
-                "settings": {
-                    "foreground": "#FFC66D"
-                }
-            },
-            {
                 "scope": "variable.parameter",
                 "settings": {
                     "foreground": "#A9B7C6"
                 }
             }
         ]
-    }
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "cmake.configureOnOpen": true,
 }
