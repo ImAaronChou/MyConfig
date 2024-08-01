@@ -12,6 +12,10 @@
     "vim.useCtrlKeys": true, // 启用 Ctrl 键映射
     "vim.useSystemClipboard": true, //使用系统剪贴板寄存器
     "vim.surround": true, //用于处理括号、方括号、引号和 XML 标签等周围的字符
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.incsearch": true,
+    "editor.occurrencesHighlight": "singleFile",
     "editor.lineNumbers": "on", // 开启显示行号
     "editor.cursorBlinking": "blink", // 开启光标闪烁
     "editor.cursorStyle": "line", // 光标样式为竖线
@@ -50,6 +54,7 @@
     "editor.mouseWheelZoom": true, // 开启鼠标支持
     "editor.renderLineHighlight": "all", // 设置光标所在列高亮
     "editor.guides.indentation": true, // 代码对齐线
+    "explorer.autoReveal": false,
     // 主题配色设置
     "workbench.colorCustomizations": {
         "editor.background": "#2B2B2B", // 编辑器背景色
@@ -168,4 +173,9 @@
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
 }

@@ -139,6 +139,11 @@
         "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
     },
     {
+        "key": "escape",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
         "key": "m f",
         "command": "explorer.newFolder",
         "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
@@ -171,6 +176,41 @@
         "key": "ctrl+j",
         "command": "selectNextSuggestion",
         "when": "editorTextFocus && suggestWidgetVisible"
+        // ctrl + space强制触发补全建议(vscode自带)
+    },
+    {
+        "key": "/",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "shift+n",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "n",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "escape",
+        "command": "list.closeFind",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.closePanel",
+        "when": "panelVisible"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "search.action.focusNextSearchResult",
+        "when": "searchViewletVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "searchViewletVisible"
     }
-    // ctrl + space强制触发补全建议(vscode自带)
 ]
