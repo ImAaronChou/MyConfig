@@ -184,19 +184,9 @@
         "when": "listFocus && listSupportsFind"
     },
     {
-        "key": "shift+n",
-        "command": "list.focusUp",
-        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
-    },
-    {
-        "key": "n",
-        "command": "list.focusDown",
-        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
-    },
-    {
         "key": "escape",
         "command": "list.closeFind",
-        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+        "when": "listFocus && !treestickyScrollFocused"
     },
     {
         "key": "escape",
@@ -212,5 +202,10 @@
         "key": "ctrl+k",
         "command": "search.action.focusPreviousSearchResult",
         "when": "searchViewletVisible"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus"
     }
 ]
