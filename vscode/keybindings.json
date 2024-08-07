@@ -217,5 +217,15 @@
         "key": "ctrl+shift+alt+l",
         "command": "editor.action.formatDocument",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "m c",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "m p",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     }
 ]
