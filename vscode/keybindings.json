@@ -63,7 +63,12 @@
     {
         "key": "\\ j d",
         "command": "editor.action.goToDeclaration",
-        "when": "editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+        "when": "editorHasDefinitionProvider && editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
+    },
+    {
+        "key": "\\ j d",
+        "command": "editor.gotoNextSymbolFromResult",
+        "when": "hasSymbols && editorTextFocus && vim.active && vim.mode != 'Insert' && !inDebugRepl"
     },
     {
         "key": "\\ s w",
